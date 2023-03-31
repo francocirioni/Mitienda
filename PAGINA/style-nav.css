@@ -2,7 +2,7 @@
    
 .cab {
     display: block;
-    background-image: url(fondo.png);
+    background-image: url(images/Home/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;   
     height: 100vh;
@@ -16,18 +16,11 @@
 }
 
 .flex-item1 {   
-    justify-content: center;
-    
-   
+    justify-content: center;      
     width: 100%;
     text-align: center;
-    margin-top: 30px;
-    
-
+    margin-top: 10px;
 }
-
-
-
 
 
 /* 
