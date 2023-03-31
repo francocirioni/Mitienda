@@ -1,0 +1,51 @@
+*{margin: 0;}
+   
+.cab {
+    display: block;
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 100vh;
+    width: 100%;
+  
+
+}
+.flex-container1{
+    display: flex;
+    width: 100%;
+}
+
+.flex-item1 {   
+    justify-content: center;
+   
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    
+
+}
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 700px) {
+
+    .cab {
+
+        display: block;
+        background-image: url(fondo.png);
+        background-repeat: no-repeat;
+        background-size:cover;   
+        height: 50vh;
+        width: 100%;
+        
+    
+    }
+  
+    }
+    
+    */ 
