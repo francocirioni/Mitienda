@@ -15,7 +15,9 @@ ul {
   }
   
   .menu li {
-    margin: auto;
+    
+    padding-right: 40px;
+    width: auto;
    
   }
   
@@ -26,7 +28,7 @@ ul {
     position: relative;
     display: block;
     padding: 5px;
-    margin: auto;
+    
     
   }
 

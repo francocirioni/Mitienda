@@ -1,0 +1,60 @@
+
+
+.otro{
+
+    background-color: white;
+    width: 100%;
+    height: auto;   
+    margin: 0px;
+   
+    
+}
+
+
+.flex-conteiner3{
+    width: 100%;
+    display: flex;   
+    height: auto;
+    height:45vh;
+}
+
+
+
+
+
+.flex-item3 {   
+    
+    justify-content: center;      
+    text-align: center;
+    margin:0px;
+    height: auto; 
+    margin: 20px;   
+
+}
+
+
+
+
+.titulo2{
+    color: black;
+    text-align: center;
+   padding-top: auto;
+   font-size: 10vh;
+   padding-top: 5vh;
+ 
+}
+
+.subtitulo2{
+    color: black;
+    text-align: center;
+    font-size: 4vh;
+    
+}
+
+.imagen3 {
+
+    height:auto;
+    min-height: 300px;
+    
+
+}
