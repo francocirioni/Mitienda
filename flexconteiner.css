@@ -72,7 +72,9 @@ width: 100%;
 }
 
 
-.titulo{font-size:20vh;}
-.subtitulo{font-size: 14vh;}
+.titulo{font-size:20vh;
+    margin-top: 10vh;}
+.subtitulo{font-size: 14vh;
+    margin-top: 10vh;}
 
 .menu{padding-top: 20px;}
