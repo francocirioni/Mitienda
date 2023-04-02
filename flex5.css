@@ -1,13 +1,12 @@
 
 
-.flex-conteiner3{
+.flex-conteiner5{
     margin: 0px;
     width: 100%;
     display: flex;       
-    height:auto;
-    min-height: 350px;
-    max-height: 450px;
+    height:900px;
    
+    
 
 }
 
@@ -15,14 +14,12 @@
 
 
 
-.flex-item3 {   
+.flex-item5 {   
     
     justify-content:space-around ;   
     text-align: center;   
-    height:auto;
-    min-height: 350px;
-    max-height: 450px;
-    padding: 20px;
+    height:900px;
+    padding:25px;
   
 
 
@@ -31,7 +28,7 @@
 
 
 
-.titulo3{
+.titulo5{
 color: black;
 text-align: center;
   font-size: 30px;
@@ -39,7 +36,7 @@ text-align: center;
  
 }
 
-.subtitulo3{
+.subtitulo5{
 
     color: black;
     text-align: center;
@@ -47,13 +44,22 @@ text-align: center;
     
 }
 
-.imagen3 {
+.imagen5 {
 
-    max-height: 400px;
-    min-height: 300px;
-    max-width: 600px;
-    min-width: 400px;
+    max-height: 850px;
+    min-height: 850px;
+    max-width: 850px;
+    min-width: 850px; 
+
 
     
 
+}
+
+
+.otroo{
+
+    margin: 0;
+    height: 300px;
+    background-color: lightblue;
 }

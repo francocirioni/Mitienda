@@ -9,8 +9,7 @@ width: 100%;
    
     display: block;
     background-image: url(images/fondo.jpg);
-    background-origin: border-box;  
-   
+    background-origin: border-box;     
     background-size: cover;   
     height: 100vh;
     width: 100%;
@@ -29,7 +28,7 @@ width: 100%;
 
 .flex-item {   
     
-    justify-content: center;      
+    justify-content:space-around ;   
     text-align: center;
     margin-top: 0;
     height: 10vh;
@@ -54,7 +53,7 @@ width: 100%;
 .flex-item2 {   
 
     height: 90vb;
-    justify-content: center;      
+    justify-content:space-around ;    
     text-align: center;
     padding: auto;
     justify-content: center
