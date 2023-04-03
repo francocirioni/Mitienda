@@ -18,9 +18,7 @@
 
     justify-content:space-around ;   
     text-align: center;   
-    height:auto;
-    min-height: 350px;
-    max-height: 450px;
+    height:600px;
     padding: 20px;
 
 }

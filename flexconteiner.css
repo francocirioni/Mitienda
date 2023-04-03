@@ -73,8 +73,12 @@ width: 100%;
 
 .titulo{font-size:20vh;
     margin-top: 10vh;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
     }
 .subtitulo{font-size: 14vh;
-    margin-top: 10vh;}
+    margin-top: 10vh;
+    font-family: 'Bebas Neue', cursive;}
+   
 
 .menu{padding-top: 20px;}
