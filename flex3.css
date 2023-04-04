@@ -33,8 +33,8 @@
 .titulo3{
 color: black;
 text-align: center;
-  font-size: 30px;
-   padding-top: 50px;
+  font-size: 10vh;
+   padding-top: 5vh;
    font-family: 'Bebas Neue', cursive;
  
  
@@ -44,20 +44,39 @@ text-align: center;
 
     color: black;
     text-align: center;
-    font-size: 30px;
+
+     font-size: 8vh;
     font-family: 'Bebas Neue', cursive;
    
 
     
 }
 
-.imagen3 {
+.imagen31 {
 
     max-height: 400px;
     min-height: 300px;
+
+
+
     max-width: 600px;
     min-width: 400px;
 
+    
+
+}
+
+
+.imagen32 {
+
+    max-height: 400px;
+    min-height: 300px;
+
+
+    
+    max-width: 600px;
+    min-width: 400px;
+   
     
 
 }
