@@ -1,0 +1,91 @@
+*{
+margin: 0;
+width: 100%;
+
+
+}
+
+.container{
+   
+    display: block;
+    background-image: url(../images/fondo3.png);
+    background-origin: border-box;     
+    background-size: cover;   
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+   
+    
+}
+
+
+
+.flex-conteiner{
+    display: flex;
+    width: 100%;
+  
+}
+
+.flex-item {   
+    
+    justify-content:space-around ;   
+    text-align: center;
+    margin-top: 0;
+    height: 10vh;
+    padding-right: 45px;
+  
+   
+    
+}
+
+.logo{width: 100px;
+    padding-top: 20px;}
+
+
+.flex-conteiner2{
+ 
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+}
+
+.flex-item2 {   
+
+    height: 90vb;
+    justify-content:space-around ;    
+    text-align: center;
+    padding: auto;
+    justify-content: center
+
+
+}
+
+
+
+.modulo{
+
+    width: auto;
+    height: 70vh;
+    margin-top: 10vh;
+    margin-left: 2vh;
+}
+
+
+.titulo{font-size:25vh;
+    margin-top: 10vh;
+    padding-left: 60px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin-left: 2vh;
+    }
+.subtitulo{font-size: 17vh;
+    padding-left: 60px;
+    margin-top: 7vh;
+    margin-left: 2vh;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;}
+
+   
+
+.menu{padding-top: 20px;}
