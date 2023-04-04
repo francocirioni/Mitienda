@@ -25,13 +25,16 @@
 }
 
 .icono7{
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: 90px;
     width: auto;
 }
 
 .titulo7{
     font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+    font-weight: bold;
   
 
 }
@@ -39,7 +42,8 @@
 .subtitulo7{
 
     font-family: 'Bebas Neue', cursive;
-
+    font-size: 2vh;
+    
 }
 
 
@@ -48,7 +52,7 @@
 
 
 
-
+/*
 @media screen and (max-width: 1366px) {
    .flex-conteiner7{
     margin: 0px;
@@ -58,4 +62,4 @@
     border: 3px solid red   ;
     }
   }
-   
+   */
