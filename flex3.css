@@ -4,8 +4,7 @@
     margin: 0px;
     width: 100%;
     display: flex;       
-    height:auto;
-    
+    height:auto;    
     max-height: 450px;
     background-color: #FFFFFF;
    
@@ -20,8 +19,7 @@
     
     justify-content:space-around ;   
     text-align: center;   
-    height:auto;
-    
+    height:auto;    
     max-height: 450px;
     padding: 20px;
   

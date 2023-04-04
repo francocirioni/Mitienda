@@ -68,19 +68,24 @@ width: 100%;
     width: auto;
     height: 70vh;
     margin-top: 10vh;
+    margin-left: 2vh;
 }
 
 
-.titulo{font-size:20vh;
+.titulo{font-size:25vh;
     margin-top: 10vh;
-     padding-left: 60px;
+    padding-left: 60px;
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
+    margin-left: 2vh;
     }
-.subtitulo{font-size: 14vh;
+.subtitulo{font-size: 17vh;
     padding-left: 60px;
-    margin-top: 10vh;
-    font-family: 'Bebas Neue', cursive;}
+    margin-top: 7vh;
+    margin-left: 2vh;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;}
+
    
 
 .menu{padding-top: 20px;}
