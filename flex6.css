@@ -25,10 +25,9 @@
 
 .flex-item61 {
 
- 
-    height: 600px;
-    width: 450px;
-    justify-content: space-between;
+    height: auto;
+    width: auto;
+    justify-content: center;
     
 
 
@@ -40,10 +39,9 @@
 
 
 
-    height: 600px;
-    width: 450px;
-
-    justify-content: space-between;
+    height: auto;
+    width: auto;
+    justify-content: center;
   
 }
 
@@ -52,9 +50,9 @@
 
 
  
-    height: 600px;
-    width: 450px;
-    justify-content: space-between;
+    height: auto;
+    width: auto;
+    justify-content: center;
     
 
 
@@ -66,10 +64,9 @@
 .flex-item64 {
 
 
-  
-    height: 600px;
-    width: 450px;
-    justify-content: space-between;
+    height: auto;
+    width: auto;
+    justify-content: center;
 
 
 
@@ -79,8 +76,9 @@
 
 
 .best{
-    height: 450px;
-    width: 450px;
+    
+    height: auto;
+    width: auto;
     background-color: #F1F1F1;
 
     
@@ -98,16 +96,16 @@
 
 .best1{
 
-    height: 400px;
-    width: 400px;
+    max-height: 400px;;
+    max-width: 400px;
     padding: 25px;
 }
 
 
 .best2{
 
-    height: 400px;
-    width: 400px;
+    max-height: 400px;;
+    max-width: 400px;
     padding: 25px;
 }
 
@@ -116,8 +114,8 @@
 .best3{
 
     
-    height: 400px;
-    width: 400px;
+    max-height: 400px;;
+    max-width: 400px;
     padding: 25px;
 }
 
@@ -125,7 +123,7 @@
 .best4{
 
     
-    height: 400px;
-    width: 400px;
+    max-height: 400px;;
+    max-width: 400px;
     padding: 25px;
 }
