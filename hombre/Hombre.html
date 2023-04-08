@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="flex6.hombre.css">
     <link rel="stylesheet" href="items.css">
     <link rel="stylesheet" href="footer.hombre.css">
+    
+   
 
     <!-- ICONO Y FLATICON-->
     <link rel="icon" href="images/favicon/mt.ico">
@@ -25,9 +27,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
 
 
+    <!-- APLICACION CARRITO JAVA-->
+
+   
 
 
-    <script src="carrito.js"></script>
 
 
     <title>Document</title>
@@ -100,10 +104,10 @@
                         HOMBRE
                     </div>
                 </span>
-    
-             
-    
-    
+
+
+
+
             </div>
 
 
@@ -111,12 +115,103 @@
         </div>
     </nav>
 
-    <!--ITEMS Y CARRITO-->
 
 
-   
 
-        <!--Primera Fila-->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- CARRITO-->
+
+
+        <div id="cart">
+            <h2>Carrito</h2>
+            <div>
+                <!-- Aquí se agregarán los elementos del carrito -->
+            </div>
+            <button id="checkout">Comprar</button>
+            <button id="empty-cart">Vaciar carrito</button>
+            <div class="total"></div>
+        </div>
+    
+    
+        <div class="total"></div>
+
+  
+    <!--Primera Fila-->
+    <div class="parteitems">
+        <div class="flex-conteiner6">
+
+            <span class="flex-item61">
+
+                <div class="best" href="">
+
+                    <img class="best1" src="../images/stock/blackhair.png" alt="">
+                </div>
+
+                <div class="textbest"> $$$$$$$$$$$$$ 
+
+                    <button class="add-to-cart" data-name="Producto 2" data-price="15" data-img="../images/stock/blackhair.png">Agregar al carrito</button>
+                    
+                </div>
+
+            </span>
+
+
+            <span class="flex-item62">
+
+                <div class="best" href="">
+
+                    <img class="best2" src="../images/stock/GtMaster2.png" alt="">
+
+                </div>
+
+                <div class="textbest"> $$$$$$$$$$$$$</div>
+
+            </span>
+
+
+            <span class="flex-item63">
+
+                <div class="best" href="">
+
+                    <img class="best3" src="../images/stock/SeaDweller.png" alt="">
+
+                </div>
+
+                <div class="textbest"> $$$$$$$$$$$$$</div>
+
+            </span>
+
+
+            <span class="flex-item64">
+
+                <div class="best" href="">
+
+                    <img class="best4" src="../images/stock/master2.png" alt="">
+                </div>
+
+                <div class="textbest"> $$$$$$$$$$$$$</div>
+
+            </span>
+
+            </span>
+
+
+
+        </div>
+
+
+        <!--Segunda Fila-->
+
 
         <div class="flex-conteiner6">
 
@@ -172,63 +267,14 @@
             </span>
         </div>
 
+    </div>
 
-            <!--Segunda Fila-->
 
 
-            <div class="flex-conteiner6">
 
-                <span class="flex-item61">
-    
-                    <div class="best" href="">
-    
-                        <img class="best1" src="../images/stock/blackhair.png" alt="">
-                    </div>
-    
-                    <div class="textbest"> $$$$$$$$$$$$$</div>
-    
-                </span>
-    
-    
-                <span class="flex-item62">
-    
-                    <div class="best" href="">
-    
-                        <img class="best2" src="../images/stock/GtMaster2.png" alt="">
-    
-                    </div>
-    
-                    <div class="textbest"> $$$$$$$$$$$$$</div>
-    
-                </span>
-    
-    
-                <span class="flex-item63">
-    
-                    <div class="best" href="">
-    
-                        <img class="best3" src="../images/stock/SeaDweller.png" alt="">
-    
-                    </div>
-    
-                    <div class="textbest"> $$$$$$$$$$$$$</div>
-    
-                </span>
-    
-    
-                <span class="flex-item64">
-    
-                    <div class="best" href="">
-    
-                        <img class="best4" src="../images/stock/master2.png" alt="">
-                    </div>
-    
-                    <div class="textbest"> $$$$$$$$$$$$$</div>
-    
-                </span>
-    
-                </span>
-            </div>
+
+
+
     
 
 
@@ -303,5 +349,93 @@
 
 
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var cart = [];
+
+    // Agrega un evento de clic a cada botón "Agregar al carrito"
+    var addToCartButtons = document.getElementsByClassName('add-to-cart');
+    for (var i = 0; i < addToCartButtons.length; i++) {
+        addToCartButtons[i].addEventListener('click', function () {
+            var name = this.dataset.name;
+            var price = this.dataset.price;
+            var img = this.dataset.img;
+            var item = { name: name, price: price , img: img};
+            cart.push(item);
+            showCart();
+        });
+    }
+
+    // Actualiza la sección del carrito cada vez que se agrega o se elimina un producto
+    function showCart() {
+        var cartList = document.querySelector('#cart div');
+        var total = 0;
+        cartList.innerHTML = '';
+        for (var i = 0; i < cart.length; i++) {
+            var item = cart[i];
+            var listItem = document.createElement('div');
+            listItem.innerHTML = item.name + ' - $' + item.price + ' <img class="imgcarro" src="        ' + item.img+    '     "> ' ;
+         
+            cartList.appendChild(listItem);
+            total += parseFloat(item.price);
+        }
+        var totalElement = document.querySelector('#cart .total');
+        totalElement.innerHTML = 'Total: $' + total.toFixed(2);
+    }
+
+    // Agrega un evento de clic al botón "Vaciar carrito"
+    var emptyCartButton = document.getElementById('empty-cart');
+    emptyCartButton.addEventListener('click', function () {
+        cart = [];
+        showCart();
+    });
+
+    // Agrega un evento de clic al botón "Comprar"
+    var checkoutButton = document.getElementById('checkout');
+    checkoutButton.addEventListener('click', function () {
+        // Envía la información del carrito al servidor para procesar la compra
+        // ...
+    });
+
+
+
+    function total() {
+
+    }
+
+
+
+</script>
+
+
+
+
 
 </html>
