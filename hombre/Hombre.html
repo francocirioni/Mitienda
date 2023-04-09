@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="flex6.hombre.css">
     <link rel="stylesheet" href="items.css">
     <link rel="stylesheet" href="footer.hombre.css">
-    
-   
+    <link rel="stylesheet" href="carrito.css">
+
+
 
     <!-- ICONO Y FLATICON-->
     <link rel="icon" href="images/favicon/mt.ico">
@@ -27,18 +28,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
 
 
-    <!-- APLICACION CARRITO JAVA-->
-
-   
 
 
 
 
-    <title>Document</title>
+    <title>Hombre</title>
 
 </head>
 
 <body>
+
+
+
 
 
     <!-- NAV Y TITULO-->
@@ -88,11 +89,19 @@
                             <a class="sobre" href="#0">
                                 SOBRE NOSOTROS
                             </a>
+
+
                         </li>
+
                     </ul>
 
 
+
+
+
                 </span>
+
+
 
             </div>
 
@@ -100,10 +109,57 @@
             <div id="titulo " class="flex-conteiner2">
 
                 <span class="flex-item2">
+
+
                     <div class="titulo">
                         HOMBRE
+
                     </div>
+
+
                 </span>
+
+
+
+
+
+                <div class="iconocarrito">
+
+
+
+                    <i onclick="mostrarocultar()" class="fa-solid fa-cart-shopping fa-2xl ">
+
+                        <span class="letracarro">MI CARRO</span>
+
+                    </i>
+
+
+                    <div id="miDiv" style="display: none; " class="contenedorcarro">
+
+
+
+                        <div id="cart">
+
+                            <div>
+
+
+
+                            </div>
+                            <button id="checkout">Comprar</button>
+                            <button id="empty-cart">Vaciar carrito</button>
+                            <div class="total"></div>
+                        </div>
+
+
+                        <div class="total"></div>
+
+                    </div>
+
+
+
+                </div>
+
+
 
 
 
@@ -117,35 +173,35 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- CARRITO-->
 
 
+    <!-- 
+    <div id="miDiv" style="display: none;"  >
+
         <div id="cart">
-            <h2>Carrito</h2>
+
             <div>
-                <!-- Aquí se agregarán los elementos del carrito -->
+
+
+
             </div>
             <button id="checkout">Comprar</button>
             <button id="empty-cart">Vaciar carrito</button>
             <div class="total"></div>
         </div>
-    
-    
-        <div class="total"></div>
 
-  
+
+        <div class="total"></div>
+    </div>
+
+
+    -->
+
+
+
+
+
     <!--Primera Fila-->
     <div class="parteitems">
         <div class="flex-conteiner6">
@@ -157,10 +213,11 @@
                     <img class="best1" src="../images/stock/blackhair.png" alt="">
                 </div>
 
-                <div class="textbest"> $$$$$$$$$$$$$ 
+                <div class="textbest"> $$$$$$$$$$$$$
 
-                    <button class="add-to-cart" data-name="Producto 2" data-price="15" data-img="../images/stock/blackhair.png">Agregar al carrito</button>
-                    
+                    <button class="add-to-cart" data-name="Producto 2" data-price="15"
+                        data-img="../images/stock/blackhair.png">Agregar al carrito</button>
+
                 </div>
 
             </span>
@@ -273,13 +330,6 @@
 
 
 
-
-
-    
-
-
-
-
     <!--FOOTER-->
     <footer class="footer">
 
@@ -378,22 +428,44 @@
 
 
 <script>
-    var cart = [];
 
-    // Agrega un evento de clic a cada botón "Agregar al carrito"
+
+
+
+    var cart = [];
+    var cartLimit = 4;
+
+
+
+
+
+
+    // AL CLICKEAR AGREGAR AL CARRITO
     var addToCartButtons = document.getElementsByClassName('add-to-cart');
+
     for (var i = 0; i < addToCartButtons.length; i++) {
+
         addToCartButtons[i].addEventListener('click', function () {
-            var name = this.dataset.name;
-            var price = this.dataset.price;
-            var img = this.dataset.img;
-            var item = { name: name, price: price , img: img};
-            cart.push(item);
-            showCart();
+
+            if (cart.length >= cartLimit) {
+                alert("a alcanzado el maximo del carrito");
+                return;
+            }
+            else {
+
+                var name = this.dataset.name;
+                var price = this.dataset.price;
+                var img = this.dataset.img;
+                var item = { name: name, price: price, img: img };
+
+
+                cart.push(item);
+                showCart();
+            }
         });
     }
 
-    // Actualiza la sección del carrito cada vez que se agrega o se elimina un producto
+    // SE ENCARGA DE ACTUALIZAR EL CARRITO 
     function showCart() {
         var cartList = document.querySelector('#cart div');
         var total = 0;
@@ -401,8 +473,8 @@
         for (var i = 0; i < cart.length; i++) {
             var item = cart[i];
             var listItem = document.createElement('div');
-            listItem.innerHTML = item.name + ' - $' + item.price + ' <img class="imgcarro" src="        ' + item.img+    '     "> ' ;
-         
+            listItem.innerHTML = item.name + ' - $' + item.price + ' <img class="imgcarro" src="        ' + item.img + '     "> ';
+
             cartList.appendChild(listItem);
             total += parseFloat(item.price);
         }
@@ -410,18 +482,28 @@
         totalElement.innerHTML = 'Total: $' + total.toFixed(2);
     }
 
-    // Agrega un evento de clic al botón "Vaciar carrito"
+    // AL CLICKEAR EL BOTON VACIAR
     var emptyCartButton = document.getElementById('empty-cart');
     emptyCartButton.addEventListener('click', function () {
         cart = [];
         showCart();
     });
 
-    // Agrega un evento de clic al botón "Comprar"
+    // QUE HACE AL APRETAR COMPRAR
     var checkoutButton = document.getElementById('checkout');
     checkoutButton.addEventListener('click', function () {
-        // Envía la información del carrito al servidor para procesar la compra
-        // ...
+
+
+
+        if (cart.length >= 1){  alert("Compra exitosa, muchas gracias");
+        cart = [];
+        showCart();}
+
+
+        else {alert("Coloque items en el carrito");}
+
+      
+        
     });
 
 
@@ -429,6 +511,19 @@
     function total() {
 
     }
+
+
+
+    function mostrarocultar() {
+
+        var div = document.getElementById("miDiv");
+        if (div.style.display === "none") {
+            div.style.display = "block";
+        } else {
+            div.style.display = "none";
+        }
+    }
+
 
 
 

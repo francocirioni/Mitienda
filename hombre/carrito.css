@@ -1,0 +1,38 @@
+
+.iconocarrito{
+display: flex;
+position: fixed;
+text-align: right;
+flex-direction: column;
+justify-content: right;
+top: 20vh;
+width: 20%;
+margin-left: 75vw ;
+
+
+
+}
+
+.letracarro{
+   
+    font-family: 'Bebas Neue', cursive;
+   
+    font-size: 40px;
+
+    margin-right:12vh;
+}
+
+
+.imgcarro{
+    width: 100px;
+    height: 100px;
+}
+
+
+.contenedorcarro{
+    background-color: red;
+    width: auto;
+    margin-top: 20px;
+    text-align: left;
+
+}
