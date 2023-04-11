@@ -470,14 +470,15 @@
     function showCart() {
         var cartList = document.querySelector('#cart div');
         var total = 0;
-        cartList.innerHTML = '';
-        for (var i = 0; i < cart.length; i++) {
+        cartList.innerHTML = '';   //se encarga de vaciar la lista
+
+        for (var i = 0; i < cart.length; i++) {    //esto es para que vaya uno a uno de los elementos de la lista y realice los div
             var item = cart[i];
             var listItem = document.createElement('div');
             listItem.innerHTML =  '<div class="itemsdelcarro">'      + item.name +  ' - $' + item.price + '<img class="imgcarro" src="' + item.img + '"> ' +      '</div>'         ;
 
-            cartList.appendChild(listItem);
-            total += parseFloat(item.price);
+            cartList.appendChild(listItem);          //sirve para actualizar la lista
+            total += parseFloat(item.price);         //suma los precios de los items
         }
         var totalElement = document.querySelector('#cart .total');
         totalElement.innerHTML = 'Total: $' + total.toFixed(2);
