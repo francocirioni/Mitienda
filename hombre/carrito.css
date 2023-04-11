@@ -1,3 +1,84 @@
+.iconocarrito {
+    display: flex;
+    position: fixed;
+    text-align: left;
+    flex-direction: row;
+    justify-content: right;
+    top: 13vh;
+    width: 60px;
+    margin-left: 96vw;
+
+
+
+
+
+
+}
+
+.letracarro {
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin-right: 0;
+
+}
+
+
+.imgcarro {
+    width: 100px;
+    height: 100px;
+}
+
+.itemsdelcarro{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+
+
+
+.contenedorcarro {
+    background-color: #606060;
+    min-width: 400px;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+
+
+}
+
+
+
+
+
+.lateral {
+
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background-color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    max-height: 320px;
+    margin-right: 20px;
+
+
+
+
+}
+
+.miDiv{
+    display: flex;
+}
+
+
+
+/*
+
+
 
 .iconocarrito{
 display: flex;
@@ -8,6 +89,7 @@ justify-content: right;
 top: 20vh;
 width: 20%;
 margin-left: 75vw ;
+
 
 
 

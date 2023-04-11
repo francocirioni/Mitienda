@@ -29,14 +29,12 @@
 
 
 
-
-
-
     <title>Hombre</title>
 
 </head>
 
 <body>
+
 
 
 
@@ -126,20 +124,13 @@
                 <div class="iconocarrito">
 
 
-
-                    <i onclick="mostrarocultar()" class="fa-solid fa-cart-shopping fa-2xl ">
-
-                        <span class="letracarro">MI CARRO</span>
-
-                    </i>
-
-
                     <div id="miDiv" style="display: none; " class="contenedorcarro">
 
 
 
                         <div id="cart">
-
+                            
+                            
                             <div>
 
 
@@ -148,12 +139,22 @@
                             <button id="checkout">Comprar</button>
                             <button id="empty-cart">Vaciar carrito</button>
                             <div class="total"></div>
+
+
                         </div>
 
 
                         <div class="total"></div>
 
                     </div>
+
+                    <div class="lateral">
+                        <i onclick="mostrarocultar()" class="fa-solid fa-cart-shopping fa-2xl ">
+    
+                            <span class="letracarro">MI CARRO</span>
+    
+                        </i>
+                        </div>
 
 
 
@@ -473,7 +474,7 @@
         for (var i = 0; i < cart.length; i++) {
             var item = cart[i];
             var listItem = document.createElement('div');
-            listItem.innerHTML = item.name + ' - $' + item.price + ' <img class="imgcarro" src="        ' + item.img + '     "> ';
+            listItem.innerHTML =  '<div class="itemsdelcarro">'      + item.name +  ' - $' + item.price + '<img class="imgcarro" src="' + item.img + '"> ' +      '</div>'         ;
 
             cartList.appendChild(listItem);
             total += parseFloat(item.price);
