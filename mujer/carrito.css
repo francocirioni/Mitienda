@@ -44,7 +44,7 @@
 
 .contenedorcarro {
 
-    background-color: #C0B9D1;
+    background-color: #fde2d9;
     min-width: 400px;
     text-align: left;
     border-bottom-left-radius: 10px;
@@ -87,7 +87,7 @@
 
     writing-mode: vertical-rl;
     text-orientation: upright;
-    background-color: #C0B9D1;
+    background-color: #fde2d9;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 25px;

@@ -8,7 +8,9 @@ width: 100%;
 .container{
    
     display: block;
-    background-image: url(../images/fondo3.png);
+    background-image: url(../images/fondo4.png);
+
+
     background-origin: border-box;     
     background-size: cover;   
     height: 40vh;
