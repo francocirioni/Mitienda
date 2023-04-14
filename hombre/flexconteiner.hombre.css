@@ -9,6 +9,8 @@ width: 100%;
    
     display: block;
     background-image: url(../images/fondo3.png);
+
+
     background-origin: border-box;     
     background-size: cover;   
     height: 40vh;
@@ -81,3 +83,10 @@ width: 100%;
    
 
 .menu{padding-top: 20px;}
+
+
+
+
+
+
+
