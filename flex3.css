@@ -6,14 +6,9 @@
     display: flex;       
     height:auto;    
     max-height: 450px;
-    background-color: #FFFFFF;
-   
+    background-color: #FFFFFF;   
 
 }
-
-
-
-
 
 .flex-item3 {   
     
@@ -23,8 +18,6 @@
     max-height: 450px;
     padding: 20px;
   
-
-
 }
 
 
@@ -33,32 +26,19 @@
 .titulo3{
 color: black;
 text-align: center;
-font-size: 10vh;
-padding-top: 5vh;
+font-size: 4vw;
+padding-top: 4vw;
 font-family: 'Bebas Neue', cursive;
  
  
 }
 
-.subtitulo3{
 
-    color: black;
-    text-align: center;
-
-    font-size: 8vh;
-    font-family: 'Bebas Neue', cursive;
-   
-
-    
-}
 
 .imagen31 {
 
     max-height: 400px;
     min-height: 300px;
-
-
-
     max-width: 600px;
     min-width: 400px;
 
@@ -70,10 +50,7 @@ font-family: 'Bebas Neue', cursive;
 .imagen32 {
 
     max-height: 400px;
-    min-height: 300px;
-
-
-    
+    min-height: 300px;    
     max-width: 600px;
     min-width: 400px;
    
