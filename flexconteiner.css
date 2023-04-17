@@ -1,69 +1,71 @@
-*{
-margin: 0;
-width: 100%;
+* {
+    margin: 0;
+    width: 100%;
 
 
 }
 
-.container{
-   
+.container {
+
     display: block;
     background-image: url(images/fondo.jpg);
-    background-origin: border-box;     
-    background-size: cover;   
+    background-origin: border-box;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     margin: 0;
-   
-    
+
+
 }
 
 
 
-.flex-conteiner{
+.flex-conteiner {
     display: flex;
     width: 100%;
-  
+
 }
 
-.flex-item {   
-    
-    justify-content:space-around ;   
+.flex-item {
+
+
+
+    justify-content: space-around;
     text-align: center;
     margin-top: 0;
     height: 10vh;
     padding-right: 45px;
-  
-   
-    
+
+
+
 }
 
-.logo{width: 100px;
-    padding-top: 20px;}
+.logo {
+    width: 100px;
+    padding-top: 20px;
+}
 
 
-.flex-conteiner2{
- 
+.flex-conteiner2 {
+
     display: flex;
     width: 100%;
     height: auto;
-    
+
 }
 
-.flex-item2 {   
+.flex-item2 {
 
     height: 90vb;
-    justify-content:space-around ;    
+    justify-content: space-around;
     text-align: center;
     padding: auto;
     justify-content: center
-
-
 }
 
 
 
-.modulo{
+.modulo {
 
     width: auto;
     height: 70vh;
@@ -72,21 +74,159 @@ width: 100%;
 }
 
 
-.titulo{font-size:25vh;
+.titulo {
+    font-size: 15vw;
     margin-top: 10vh;
     padding-left: 60px;
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
     margin-left: 2vh;
-    }
-    
-.subtitulo{font-size: 17vh;
+}
+
+.subtitulo {
+    font-size: 7vw;
     padding-left: 60px;
     margin-top: 7vh;
     margin-left: 2vh;
     font-family: 'Bebas Neue', cursive;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
+
+
+.menu {
+    padding-top: 20px;
+}
+
+.menu2 {
+    padding-top: 20px;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+
+
+    * {
+        margin: 0;
+        width: 100%;
+
+
+    }
+
+    .container {
+
+        display: block;
+        background-image: url(images/fondo.jpg);
+        background-origin: border-box;
+        background-size: cover;
+        max-height: 100vh;
+        width: 100%;
+        margin: 0;
+
+
+    }
+
+
+
+    .flex-conteiner {
+        display: flex;
+        width: 100%;
+     
+
+    }
+
+    .flex-item {
+
+
+
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 0;
+        height: 10vh;
+        
+
+
+
+    }
+
+    .logo {
+        width: 100px;
+        padding-top: 20px;
+    }
+
+
+    .flex-conteiner2 {
+
+        display: flex;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .flex-item2 {
+
+        height: 90vb;
+        justify-content: space-around;
+        text-align: center;
+        padding: auto;
+        justify-content: center
+    }
+
+
+
+    .modulo {
+
+        width: auto;
+        height: 40vw;
+        margin-top: 9vh;
+        margin-left: 2vh;
+    }
+
+
+    .titulo {
+        font-size: 15vw;
+        margin-top: 10vh;
+        padding-left: 60px;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        margin-left: 2vh;
+    }
+    
+    .subtitulo {
+        font-size: 7vw;
+        padding-left: 60px;
+        margin-top: 7vh;
+        margin-left: 2vh;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+    }
+    
+
+
+    .menu {
+        padding-top: 20px;
+        align-items: center;
+        justify-content: space-around;
+
+      
+    }
+
+    
+    .menu2 {
+        padding-top: 20px;
    
 
-.menu{padding-top: 20px;}
+       width: 100%;
+       text-align: center;
+       justify-items: center;
+    }
+    
+    
+
+
+
+
+
+}

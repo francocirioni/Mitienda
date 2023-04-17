@@ -28,37 +28,68 @@
 
 
 
-.new{
+.new, .hermes, .paris, .edition {
     font-family: 'Bebas Neue', cursive;
     font-size: 10vw;
     margin-left: 1vh;
+    margin-top: 1.5vw;
     
 
 }
 
-.hermes{
+
+
+
+
+.imagen4 {max-height: 550px;
+    max-width: 100%;
+    width: auto;
+margin: 0px;
+padding: 0px;}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+
+
+    
+
+.flex-conteiner4{
+    margin: 0px;
+    width: 100%;
+    display: flex;       
+    max-height:600px;
+    background-image: url(images/fondo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+
+
+
+
+.flex-item4 {   
+
+    justify-content:space-around ;   
+    text-align: center;   
+    height:auto;
+    max-height: 600px;
+    padding: 20px;
+
+
+}   
+
+
+
+.new, .hermes, .paris, .edition {
     font-family: 'Bebas Neue', cursive;
     font-size: 10vw;
     margin-left: 1vh;
+    margin-top: 1.5vw;
     
-
-
-
-}
-
-.paris{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 10vw;
-    margin-right: 1vh;
-    
-}
-
-.edition{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 10vw;
-    margin-right: 1vh;
-    
-
 
 }
 
@@ -68,3 +99,7 @@
 margin: 0px;
 padding: 0px;}
 
+
+
+
+}
