@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 1366px) and (max-width: 1920px) { 
 
 .flex-conteiner4{
     margin: 0px;
@@ -103,3 +103,4 @@ padding: 0px;}
 
 
 }
+ }

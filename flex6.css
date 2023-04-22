@@ -1,3 +1,4 @@
+@media screen and (min-width: 1366px) and (max-width: 1920px) { 
 .tituloprincipal6 {
     height: 150px;
     margin: 0px;
@@ -128,3 +129,5 @@
     max-width: 400px;
     padding: 25px;
 }
+
+ }

@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 1366px) and (max-width: 1920px) { 
 
 .flex-conteiner3{
     margin: 0px;
@@ -56,4 +56,5 @@ font-family: 'Bebas Neue', cursive;
    
     
 
+}
 }
