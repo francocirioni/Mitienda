@@ -1,9 +1,12 @@
 *{
 margin: 0;
-width: 100%;
+width: 100%;}
 
 
-}
+@media screen and (min-width: 1366px) and (max-width: 1920px) { 
+
+
+
 
 .container{
    
@@ -90,3 +93,4 @@ width: 100%;
 
 
 
+}

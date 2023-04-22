@@ -1,3 +1,6 @@
+@media screen and (min-width: 1366px) and (max-width: 1920px) { 
+
+
 .footer{
 
     MAX-height: 400px;  
@@ -121,5 +124,8 @@
 
     font-family: 'Bebas Neue', cursive;
     color:#606060;
+
+}
+
 
 }
