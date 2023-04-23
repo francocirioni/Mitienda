@@ -1,0 +1,69 @@
+/* ESTO ERA PARA EL CONTACTO QUE YA ESTA*/
+/* .contenedor .form .form-header .form-title {
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+} */
+
+/* .contenedor .form .form-header .form-title span {
+    color: #fff;
+    } */
+
+    .contenedor .form{
+        background: rgba(131, 125, 138, 0.43);
+        width: 90%;
+        max-width: 650px;
+        margin: auto;
+        padding: 5px 35px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+        border-radius: 3px;
+    
+    }
+    .contenedor .form .form-label {
+        display: block;
+        color: black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        position: relative;
+    }
+    .contenedor .form .form-input, .form-textarea {
+        background: rgba(116, 101, 134, 0.43);
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgba(116, 101, 134, 0.43);
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        color: bisque;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    
+    .contenedor.form .form-textarea {
+        resize: vertical;
+        max-height: 150px;
+        min-height: 50px;
+    }
+    
+    .contenedor .form .bot-submit {
+    width: 100%;
+    font-family:'Bebas Neue', cursive ;
+    outline: none;
+    background:  rgba(116, 101, 134, 0.43);
+    font-size: 18px;
+    border: none;
+    color: rgba(4, 4, 4, 0.75);
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin: 5px;
+    }
+    
+    .contenedor .form .bot-submit:hover {
+    background: rgba(109, 88, 170, 1.43);
+    /* background: rgba(109, 88, 170, 1.43); */
+    }
