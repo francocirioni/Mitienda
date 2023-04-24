@@ -1,15 +1,7 @@
+@media screen and (min-width: 1367px) { 
 *{
 margin: 0;
-width: 100%;
-
-
-
-
-}
-
-
-
-@media screen and (min-width: 1366px) and (max-width: 1920px) { 
+width: 100%;}
 
 .container{
    
@@ -20,6 +12,8 @@ width: 100%;
     height: 40vh;
     width: 100%;
     margin: 0;
+
+    
    
     
 }
@@ -27,9 +21,12 @@ width: 100%;
 
 
 .flex-conteiner{
+
+    
     display: flex;
     width: 100%;
   
+
 }
 
 .flex-item {   
@@ -38,7 +35,8 @@ width: 100%;
     text-align: center;
     margin-top: 0;
     height: 10vh;
-    padding-right: 45px;
+
+    
   
    
     
@@ -88,5 +86,116 @@ width: 100%;
 
 .menu{padding-top: 20px;}
 
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+
+
+    *{
+        margin: 0;
+        width: 100%;}
+        
+        
+        
+        
+        
+        
+        
+        .container{
+           
+            display: block;
+            background-image: url(../images/fondo3.png);
+        
+        
+            background-origin: border-box;     
+            background-size: cover;   
+            height: 40vh;
+            width: 100%;
+            margin: 0;
+
+          ;
+           
+            
+        }
+        
+        
+        
+        .flex-conteiner{
+            display: flex;
+            width: 100%;
+         ;
+          
+        }
+        
+        .flex-item {   
+            
+            justify-content:space-around ;   
+            text-align: center;
+            margin-top: 0;
+            height: 33%;
+           
+         
+          
+           
+            
+        }
+        
+        .logo{width: 100px;
+            padding-top: 20px;
+          }
+        
+        
+        .flex-conteiner2{
+         
+            display: flex;
+            width: 100%;
+            height: auto;
+          
+            
+        }
+        
+        .flex-item2 {   
+        
+          
+           
+            justify-content:center ;    
+            text-align: center;
+            padding: auto;
+            justify-content: center;
+    
+        
+        
+        }
+        
+        
+        
+        .modulo{
+        
+            width: auto;
+            height: 70vh;
+            margin-top: 10vh;
+            margin-left: 2vh;
+       
+        }
+        
+        
+        .titulo{font-size:20vh; 
+            font-family: 'Bebas Neue', cursive;
+            font-weight: bold;
+         
+            }
+        
+           
+        }
