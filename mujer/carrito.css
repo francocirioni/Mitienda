@@ -1,4 +1,5 @@
-@media screen and (min-width: 1366px) and (max-width: 1920px) { 
+
+
 .iconocarrito {
     display: flex;
     position: fixed;
@@ -50,7 +51,7 @@
 
     */
 
-    background-image: url(../images/fondo6.png);
+    background-image: url(../images/fondo8.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 400px;
@@ -132,5 +133,6 @@
 }
 
 
- }
+
+
 
