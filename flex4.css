@@ -1,4 +1,4 @@
-@media screen and (min-width: 1366px) and (max-width: 1920px) { 
+@media screen and (min-width: 1367px) { 
 
 .flex-conteiner4{
     margin: 0px;
@@ -7,14 +7,8 @@
     max-height:600px;
     background-image: url(images/fondo3.png);
     background-repeat: no-repeat;
-    background-size: cover;
-   
-
+    background-size: cover;   
 }
-
-
-
-
 
 .flex-item4 {   
 
@@ -23,29 +17,23 @@
     height:auto;
     max-height: 600px;
     padding: 20px;
-
 }   
-
-
 
 .new, .hermes, .paris, .edition {
     font-family: 'Bebas Neue', cursive;
     font-size: 10vw;
     margin-left: 1vh;
-    margin-top: 1.5vw;
-    
+    margin-top: 1.5vw;   
 
 }
-
-
-
-
 
 .imagen4 {max-height: 550px;
     max-width: 100%;
     width: auto;
 margin: 0px;
 padding: 0px;}
+
+}
 
 
 
@@ -103,4 +91,4 @@ padding: 0px;}
 
 
 }
- }
+
