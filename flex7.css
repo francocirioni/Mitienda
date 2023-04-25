@@ -52,3 +52,60 @@
 
 
  }
+
+
+
+
+ @media screen and (min-width: 1024px) and (max-width: 1366px) {
+
+    .flex-conteiner7{
+        margin: 0px;
+        width: 100%;
+        display: flex;       
+        height:300px;
+      
+         
+    
+    }
+    
+    
+    
+    
+    
+    .flex-item7 {   
+    
+        justify-content:space-around ;   
+        text-align: center;   
+        height: 300px;
+        padding: 20px;
+        border: 3px solid #F1F1F1;
+       
+    
+    }
+    
+    .icono7{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 90px;
+        width: auto;
+    }
+    
+    .titulo7{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3vh;
+        font-weight: bold;
+      
+    
+    }
+    
+    .subtitulo7{
+    
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2vh;
+        
+    }
+    
+    
+    
+
+ }

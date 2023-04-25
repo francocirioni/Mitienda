@@ -58,3 +58,74 @@ font-family: 'Bebas Neue', cursive;
 
 }
 }
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+
+    
+.flex-conteiner3{
+    margin: 0px;
+    width: 100%;
+    display: flex;       
+    height:auto;    
+    max-height: 450px;
+    background-color: #FFFFFF;   
+
+
+
+
+}
+
+.flex-item3 {   
+    
+    justify-content:space-around ;   
+    text-align: center;   
+    height:auto;    
+    max-height: 450px;
+    padding: 20px;
+  
+}
+
+
+
+
+.titulo3{
+color: black;
+text-align: center;
+font-size: 4vw;
+padding-top: 4vw;
+font-family: 'Bebas Neue', cursive;
+ 
+ 
+}
+
+
+
+.imagen31 {
+
+    max-height: 400px;
+    min-height: 200px;
+    max-width: 600px;
+    min-width: 300px;
+
+    
+
+}
+
+
+.imagen32 {
+
+    max-height: 400px;
+    min-height: 200px;    
+    max-width: 600px;
+    min-width: 300px;
+   
+    
+
+}
+
+
+
+
+
+}
