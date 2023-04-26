@@ -8,7 +8,7 @@ width: 100%;
     background-image: url(../images/fondo3.png);
     background-origin: border-box;     
     background-size: cover;   
-    height: 25vh;
+    height: 40vh;
     margin: 0;
 }
 
@@ -49,13 +49,25 @@ width: 100%;
 
 
 .titulo{
-    font-size:10vh; 
+    font-size:20vh; 
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
 }
 
 
 .menu{padding-top: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
