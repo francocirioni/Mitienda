@@ -1,4 +1,5 @@
-@media screen and (min-width: 1366px) and (max-width: 1920px) { 
+
+
 .iconocarrito {
     display: flex;
     position: fixed;
@@ -50,7 +51,7 @@
 
     */
 
-    background-image: url(../images/fondo6.png);
+    background-image: url(../images/fondo8.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 400px;
@@ -119,12 +120,13 @@
 
 .add-to-cart{
 
-    width: 100%;
+    width: 95%  ;
+    margin-left: 5px;
+    margin-right: 5px;
     display: flex;    
     justify-content: center;
     text-align: center;
-    align-items: center;
-    padding: 4px;
+    align-items: center;  
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
 
@@ -132,5 +134,6 @@
 }
 
 
- }
+
+
 
