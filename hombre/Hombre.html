@@ -129,8 +129,8 @@
 
 
                         <div id="cart">
-                            
-                            
+
+
                             <div>
 
 
@@ -150,11 +150,11 @@
 
                     <div class="lateral">
                         <i onclick="mostrarocultar()" class="fa-solid fa-cart-shopping fa-2xl ">
-    
-                           
-    
+
+
+
                         </i>
-                        </div>
+                    </div>
 
 
 
@@ -214,7 +214,10 @@
                     <img class="best1" src="../images/stock/blackhair.png" alt="">
                 </div>
 
-                <div class="textbest"> <h1 class="titulorelojes">blackhair</h1>  $ 10796
+                <div class="titulosrelojes">
+                    <h1 class="">blackhair</h1> $ 10796
+                </div>
+                <div class="textbest">
 
                     <button class="add-to-cart" data-name="blackhair" data-price="10796"
                         data-img="../images/stock/blackhair.png">Agregar al carrito</button>
@@ -232,7 +235,11 @@
 
                 </div>
 
-                <div class="textbest"> <h1 class="titulorelojes"> Sea Dweller</h1>  $ 16399
+                <div class="titulosrelojes">
+                    <h1 class=""> Sea Dweller</h1> $ 16399
+                </div>
+
+                <div class="textbest">
 
                     <button class="add-to-cart" data-name="Sea Dweller" data-price="16399"
                         data-img="../images/stock/GtMaster2.png">Agregar al carrito</button>
@@ -250,12 +257,18 @@
 
                 </div>
 
-                <div class="textbest"> <h1 class="titulorelojes">Gt Master II</h1>  $ 14250
+                <div class="titulosrelojes">
+                    <h1 class="">Gt Master II</h1> $ 14250
+                </div>
+
+                <div class="textbest">
 
                     <button class="add-to-cart" data-name="Gt Master II" data-price="14250"
                         data-img="../images/stock/SeaDweller.png">Agregar al carrito</button>
 
                 </div>
+
+
 
             </span>
 
@@ -267,7 +280,11 @@
                     <img class="best4" src="../images/stock/master2.png" alt="">
                 </div>
 
-                <div class="textbest"> <h1 class="titulorelojes">Green master </h1>  $ 10580
+                <div class="titulosrelojes">
+                    <h1 class="">Green master </h1> $ 10580
+                </div>
+
+                <div class="textbest">
 
                     <button class="add-to-cart" data-name="Green master" data-price="10580"
                         data-img="../images/stock/master2.png">Agregar al carrito</button>
@@ -295,7 +312,11 @@
                     <img class="best1" src="../images/stock/OysterBrown.png" alt="">
                 </div>
 
-                <div class="textbest"> <h1 class="titulorelojes">Oyster Brown</h1>  $ 14850
+                <div class="titulosrelojes">
+                    <h1 class="">Oyster Brown</h1> $ 14850
+                </div>
+
+                <div class="textbest">
 
                     <button class="add-to-cart" data-name="Oyster Brown" data-price="14850"
                         data-img="../images/stock/OysterBrown.png">Agregar al carrito</button>
@@ -313,7 +334,11 @@
 
                 </div>
 
-                <div class="textbest"> <h1 class="titulorelojes">Hermes</h1>  $ 16800
+                <div class="titulosrelojes">
+                    <h1 class="">Hermes</h1> $ 16800
+                </div>
+
+                <div class="textbest">
 
                     <button class="add-to-cart" data-name="Hermes" data-price="16800"
                         data-img="../images/stock/Hermes.png">Agregar al carrito</button>
@@ -331,7 +356,11 @@
 
                 </div>
 
-                <div class="textbest"> <h1 class="titulorelojes">Oyster Grey</h1>  $ 13597
+                <div class="titulosrelojes">
+                    <h1 class="">Oyster Grey</h1> $ 13597
+                </div>
+
+                <div class="textbest">
 
                     <button class="add-to-cart" data-name="Oyster Grey" data-price="13597"
                         data-img="../images/stock/OysterGris.png">Agregar al carrito</button>
@@ -348,7 +377,13 @@
                     <img class="best4" src="../images/stock/Explorer2.png" alt="">
                 </div>
 
-                <div class="textbest"> <h1 class="titulorelojes">Explorer II</h1>  $ 13780
+                <div class="titulosrelojes">
+                    <h1 class="">Explorer II</h1> $ 13780
+                </div>
+
+
+
+                <div class="textbest">
 
                     <button class="add-to-cart" data-name="Explorer II" data-price="13780"
                         data-img="../images/stock/Explorer2.png">Agregar al carrito</button>
@@ -395,7 +430,8 @@
             </span>
 
             <span class="flex-item83">
-                <div class="titulo8"> <a class="titulo81" href="../preguntas-frecuentes/preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a></div>
+                <div class="titulo8"> <a class="titulo81"
+                        href="../preguntas-frecuentes/preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a></div>
 
                 <div class="subitulo8">Garantia</div>
                 <div class="subitulo8">Envios</div>
@@ -510,7 +546,7 @@
         for (var i = 0; i < cart.length; i++) {    //esto es para que vaya uno a uno de los elementos de la lista y realice los div
             var item = cart[i];
             var listItem = document.createElement('div');
-            listItem.innerHTML =  '<div class="itemsdelcarro">'      + item.name +  ' - $' + item.price + '<img class="imgcarro" src="' + item.img + '"> ' +      '</div>'         ;
+            listItem.innerHTML = '<div class="itemsdelcarro">' + item.name + ' - $' + item.price + '<img class="imgcarro" src="' + item.img + '"> ' + '</div>';
 
             cartList.appendChild(listItem);          //sirve para actualizar la lista
             total += parseFloat(item.price);         //suma los precios de los items
@@ -532,15 +568,17 @@
 
 
 
-        if (cart.length >= 1){  alert("Compra exitosa, muchas gracias");
-        cart = [];
-        showCart();}
+        if (cart.length >= 1) {
+            alert("Compra exitosa, muchas gracias");
+            cart = [];
+            showCart();
+        }
 
 
-        else {alert("Coloque items en el carrito");}
+        else { alert("Coloque items en el carrito"); }
 
-      
-        
+
+
     });
 
 

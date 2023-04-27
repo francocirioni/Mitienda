@@ -10,40 +10,13 @@
         padding-top: 40px;
 
     }
-
-
-
-
-
-    .flex-item61 {
+    .flex-item61, .flex-item62, .flex-item63, .flex-item64 {
         height: auto;
         width: auto;
         justify-content: center;
     }
 
-    .flex-item62 {
-
-        height: auto;
-        width: auto;
-        justify-content: center;
-
-    }
-
-
-    .flex-item63 {
-        height: auto;
-        width: auto;
-        justify-content: center;
-    }
-
-    .flex-item64 {
-        height: auto;
-        width: auto;
-        justify-content: center;
-    }
-
-
-    .best {
+    .best {                         /*Es el fondo de los relojes*/
 
             
         align-items: center;
@@ -53,21 +26,39 @@
         width: auto;
         margin: 5px;
         background-color: #F1F1F1;    
+        
 
     }
 
 
     .textbest {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Bebas Neue', cursive;   
+        font-size: 20px;
+       
+        
+   
+    }
+
+    .titulosrelojes{
         text-align: left;
         font-family: 'Bebas Neue', cursive;
         padding-top: 30px;
-        padding-left: 0px;
-        font-size: 20px;
+        font-size: 20px;    
+        margin-left: 10px;
+       
+
+
     }
+
+    
 
 
     .best1,.best2, .best3, .best4 {
-
+         
         max-height: 400px;
         ;
         max-width: 400px;
@@ -128,13 +119,27 @@
     }
     
     
-    .textbest{
+    .textbest {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Bebas Neue', cursive;   
+        font-size: 20px;
+       
+        
+   
+    }
+
+    .titulosrelojes{
         text-align: left;
         font-family: 'Bebas Neue', cursive;
         padding-top: 30px;
-        padding-left: 15px;
-        font-size: 20px;
-      
+        font-size: 20px;    
+        margin-left: 10px;
+       
+
+
     }
     
     
