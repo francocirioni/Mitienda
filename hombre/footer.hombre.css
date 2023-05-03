@@ -127,6 +127,14 @@
     color:#606060;
 
 }
+.consultas2{
+    color: red;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+
+
+
 }
 
 
@@ -261,5 +269,13 @@
         color:#606060;
     
     }
+
+    .consultas2{
+        color: red;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+    }
+    
+    
     }
     
