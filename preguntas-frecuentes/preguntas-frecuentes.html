@@ -18,6 +18,10 @@
     <!-- KIT DE ICONOS FONTAWESOME-->
     <script src="https://kit.fontawesome.com/fdd02fe565.js" crossorigin="anonymous"></script>
 
+    <!-- KIT EFECTOS DE TRANSICION -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- TIPO DE LETRAS GOOGLE FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +39,7 @@
 
 
     <!-- NAV Y TITULO-->
-    <nav>
+    <nav data-aos="fade-right">
         <div class="container-top">
 
             <div id="nav" class="flex-conteiner">
@@ -117,7 +121,7 @@
 
     <!--MAIN-->
      
-    <main>      
+    <main  data-aos="fade-up">      
         
         
         <div class="container-main">    
@@ -242,7 +246,7 @@
 
 
     <!--FOOTER-->
-    <footer class="footer">
+    <footer class="footer"  data-aos="fade-up">
 
 
         <div class="flex-conteiner8">
@@ -289,6 +293,19 @@
         </div>
 
     </footer>
+
+    
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+
+
 
 
 </body>
