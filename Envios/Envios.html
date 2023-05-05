@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="flexconteiner.Envios.css">
     <link rel="stylesheet" href="botones.Envios.css">
     <link rel="stylesheet" href="footer.Envios.css">
+    <link rel="stylesheet" href="main.css">
 
 
 
@@ -126,12 +127,37 @@
 
 
 
-    <main data-aos="fade-up">
+    <main class="main" data-aos="fade-up">
 
-        <label for="id-envio">ID del envío:</label>
-        <input type="text" id="id-envio">
-        <button id="btn-buscar">Buscar</button>
-        <p id="resultado"></p>
+
+
+        <div class="contenedor-principal">
+            <div class="contenedor-formulario">
+                <div class="formulario">
+                    <div class="tituloid">Coloque el ID de su compra</div>
+                   <div class="form"> 
+
+
+                    
+                   <input type="text" id="id-envio" class="input" placeholder="Ejemplo : 123456">
+
+
+                   </div> 
+                   
+
+                    <button id="btn-buscar" class="boton">Buscar</button>
+                </div>
+                <div class="resultado">
+                    <p id="resultado"></p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
 
         <script>
             const btnBuscar = document.getElementById('btn-buscar');
@@ -147,9 +173,9 @@
                         const envios = data.envios;
                         const envio = envios.find(envio => envio.numero_envio === idEnvio);
                         if (envio) {
-                            resultado.innerHTML = `El estado del envío con número ${idEnvio} es: ${envio.estado}`;
+                            resultado.innerHTML = '<div class="titulo2">'  +`El estado del envío con número ${idEnvio} es: ${envio.estado}` + '</div>';
                         } else {
-                            resultado.innerHTML = `No se encontró el envío con número ${idEnvio}`;
+                            resultado.innerHTML = '<div class="titulo2">' + `No se encontró el envío con número ${idEnvio}`  + '</div>';
                         }
                     })
                     .catch(error => {
@@ -157,6 +183,12 @@
                     });
             });
         </script>
+
+<!--.innerHTML =  '<div class="estadopaquete">'      + ${idEnvio} +  ' - $' + ${envio.estado} + ' ' +      '</div>'  ;
+
+
+-->
+
 
 
 
