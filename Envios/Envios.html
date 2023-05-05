@@ -138,20 +138,20 @@
             const resultado = document.getElementById('resultado');
 
             btnBuscar.addEventListener('click', () => {
-                const idEnvio = document.getElementById('id').value;
-                const url = `https://apimocha.com/mitiendaenvios/envios/?id=${id}`;
+                const idEnvio = document.getElementById('id-envio');
+                const url = `https://apimocha.com/mitiendaenvios/envios/?id=${idEnvio}`;
 
                 fetch(url)
                     .then(response => response.json())
                     .then(data => {
                         // Verifica que la respuesta contenga la propiedad "estado"
                         if (data.estado) {
-                            resultado.innerHTML = `El estado del envío con ID ${id} es: ${data.estado}`;
+                            resultado.innerHTML = `El estado del envío con ID ${idEnvio} es: ${data.estado}`;
                         } else {
-                            resultado.innerHTML = `No se encontró el estado del envío con ID ${id}`;
+                            resultado.innerHTML = `No se encontró el estado del envío con ID ${idEnvio}`;
                         }
                     })
-                    .catch(error => {
+                    .catch(error => {   
                         resultado.innerHTML = `Error: ${error.message}`;
                     });
             });
