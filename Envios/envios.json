@@ -1,0 +1,12 @@
+{
+    "envios": [
+      {
+        "id": 1,
+        "estado": "en camino"
+      },
+      {
+        "id": 2,
+        "estado": "entregado"
+      }
+    ]
+  }

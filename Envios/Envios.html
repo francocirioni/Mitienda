@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="flexconteiner.Envios.css">
     <link rel="stylesheet" href="botones.Envios.css">
     <link rel="stylesheet" href="footer.Envios.css">
-    
+
+
 
 
     <!-- ICONO Y FLATICON-->
@@ -122,26 +123,50 @@
 
 
     <!--MAIN-->
-     
-
-    
-    <main  data-aos="fade-up">      
 
 
 
+    <main data-aos="fade-up">
+
+        <label for="id-envio">ID del envío:</label>
+        <input type="text" id="id-envio">
+        <button id="btn-buscar">Buscar</button>
+        <p id="resultado"></p>
+
+        <script>
+            const btnBuscar = document.getElementById('btn-buscar');
+            const resultado = document.getElementById('resultado');
+
+            btnBuscar.addEventListener('click', () => {
+                const idEnvio = document.getElementById('id').value;
+                const url = `https://apimocha.com/mitiendaenvios/envios/?id=${id}`;
+
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        // Verifica que la respuesta contenga la propiedad "estado"
+                        if (data.estado) {
+                            resultado.innerHTML = `El estado del envío con ID ${id} es: ${data.estado}`;
+                        } else {
+                            resultado.innerHTML = `No se encontró el estado del envío con ID ${id}`;
+                        }
+                    })
+                    .catch(error => {
+                        resultado.innerHTML = `Error: ${error.message}`;
+                    });
+            });
+        </script>
 
 
-        
-     
 
-    </main>      
-    
+    </main>
+
 
 
 
 
     <!--FOOTER-->
-    <footer class="footer"  data-aos="fade-up">
+    <footer class="footer" data-aos="fade-up">
 
 
         <div class="flex-conteiner8">
@@ -165,7 +190,8 @@
 
 
             <span class="flex-item83">
-                <div class="titulo8"> <a class="titulo81" href="preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a></div>
+                <div class="titulo8"> <a class="titulo81" href="preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a>
+                </div>
                 <div class="subitulo8">Garantia</div>
                 <div class="subitulo8">Envios</div>
                 <div class="subitulo8">Pagos</div>
@@ -181,7 +207,7 @@
                 <div class="subitulo8">Av.Gral.Paz 1278 , Buenos Aires, Argentína</div>
                 <div class="subitulo8">Contacto@Mitienda.com</div>
                 <div class="subitulo8">+54-3568-359875</div>
-                <div > <a href="../Envios/Envios.html" class="consultas2">Consultar mi pedido</a></div>
+                <div> <a href="../Envios/Envios.html" class="consultas2">Consultar mi pedido</a></div>
 
             </span>
 
@@ -190,16 +216,16 @@
 
     </footer>
 
-    
 
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init({
-        duration: 1000,
-        once: true
-    });
-</script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
 
 
 
