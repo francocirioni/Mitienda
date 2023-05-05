@@ -138,20 +138,21 @@
             const resultado = document.getElementById('resultado');
 
             btnBuscar.addEventListener('click', () => {
-                const idEnvio = document.getElementById('id-envio');
-                const url = `https://apimocha.com/mitiendaenvios/envios/?id=${idEnvio}`;
+                const idEnvio = document.getElementById('id-envio').value;
+                const url = 'https://my-json-server.typicode.com/francocirioni/jsonmitienda/db';
 
                 fetch(url)
                     .then(response => response.json())
                     .then(data => {
-                        // Verifica que la respuesta contenga la propiedad "estado"
-                        if (data.estado) {
-                            resultado.innerHTML = `El estado del envío con ID ${idEnvio} es: ${data.estado}`;
+                        const envios = data.envios;
+                        const envio = envios.find(envio => envio.numero_envio === idEnvio);
+                        if (envio) {
+                            resultado.innerHTML = `El estado del envío con número ${idEnvio} es: ${envio.estado}`;
                         } else {
-                            resultado.innerHTML = `No se encontró el estado del envío con ID ${idEnvio}`;
+                            resultado.innerHTML = `No se encontró el envío con número ${idEnvio}`;
                         }
                     })
-                    .catch(error => {   
+                    .catch(error => {
                         resultado.innerHTML = `Error: ${error.message}`;
                     });
             });
