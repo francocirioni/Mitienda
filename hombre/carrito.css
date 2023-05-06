@@ -1,4 +1,9 @@
 @media screen and (max-width: 1023px)  { 
+    .iconocarrito {
+        position: absolute;
+        top: 7%;
+        right: 2%;
+    }
 }
 @media screen and (min-width: 1367px) {
 

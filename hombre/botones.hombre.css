@@ -8,6 +8,14 @@
     font-family: 'Merriweather', serif;
     font-weight: bold;
   }
+  .menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  .menu li{
+    padding-left: 10px;
+  }
   .menu a::before {
     content: '';
     position: absolute;
