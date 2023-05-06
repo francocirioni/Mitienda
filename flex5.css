@@ -1,103 +1,28 @@
-@media screen and (min-width: 1367px) { 
-
-.flex-conteiner5{
-    margin: 0px;
-    width: 100%;
-    display: flex;       
-    max-height:900px;
-}
+@media screen and (max-width: 1024px) {
+    .flex-conteiner5{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-item5 {   
 
 
-.flex-item5 {   
-    justify-content:space-around ;   
-    text-align: center;   
-    max-height:900px;
-    padding-top:10px;
-    padding-bottom:20px;
-}
-/*
-.titulo5{
-color: black;
-text-align: center;
-  font-size: 30px;
-   padding-top: 50px;
-   font-family: 'Bebas Neue', cursive;
- 
-}
-*/
-
-.subtitulo5{
-    color: black;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;    
-}
-
-.imagen5 {
-    margin-top: 10px;
-    max-height: 900px;   
-    max-width: 900px;
-    padding-left: 0px;    
-    background-image: url(images/mujer2.png);
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.flex-conteiner52{    
-    width: 100%;
-    display: flex;      
-    justify-content: center;
-    max-height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px; 
-}
-
-
-.flex-item52 {
-    height: auto;
-    width: auto;    
-}
-
-
-.imagen52{
-    max-height: 400px;;
-    max-width: 400px;
-    padding: 25px;
- }
-
-
-.best5{    
-    height: auto;
-    width: auto;
-    background-color: #F1F1F1;    
-}
-
-
-.titulo5{
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;  
-    font-size: 4vw;
-    font-size: bold;
-}
-
-.subtitulo5{
-
+    }
+    .subtitulo5{
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Bebas Neue', cursive;    
+    }
     
-    font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: bold;
-    font-size: 7vh;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    .imagen5 {
+        height: 800px;
+        background-image: url(images/mujer2.png);
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }   
 }
- }
 
-
-
-
-
- 
-
- @media screen and (min-width: 1024px) and (max-width: 1366px){
+@media screen and (min-width: 1024px) and (max-width: 1366px){
     
 .flex-conteiner5{
     margin: 0px;
@@ -108,6 +33,7 @@ text-align: center;
 
 
 .flex-item5 {   
+    display: flex;
     justify-content:space-around ;   
     text-align: center;   
     max-height:900px;
@@ -203,3 +129,96 @@ text-align: center;
 }
 
  }
+
+ @media screen and (min-width: 1367px) { 
+
+    .flex-conteiner5{
+        margin: 0px;
+        width: 100%;
+        display: flex;       
+        max-height:900px;
+    }
+    
+    
+    .flex-item5 {   
+        justify-content:space-around ;   
+        text-align: center;   
+        max-height:900px;
+        padding-top:10px;
+        padding-bottom:20px;
+    }
+    /*
+    .titulo5{
+    color: black;
+    text-align: center;
+      font-size: 30px;
+       padding-top: 50px;
+       font-family: 'Bebas Neue', cursive;
+     
+    }
+    */
+    
+    .subtitulo5{
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Bebas Neue', cursive;    
+    }
+    
+    .imagen5 {
+        margin-top: 10px;
+        max-height: 900px;   
+        max-width: 900px;
+        padding-left: 0px;    
+        background-image: url(images/mujer2.png);
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    
+    .flex-conteiner52{    
+        width: 100%;
+        display: flex;      
+        justify-content: center;
+        max-height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px; 
+    }
+    
+    
+    .flex-item52 {
+        height: auto;
+        width: auto;    
+    }
+    
+    
+    .imagen52{
+        max-height: 400px;;
+        max-width: 400px;
+        padding: 25px;
+     }
+    
+    
+    .best5{    
+        height: auto;
+        width: auto;
+        background-color: #F1F1F1;    
+    }
+    
+    
+    .titulo5{
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;  
+        font-size: 4vw;
+        font-size: bold;
+    }
+    
+    .subtitulo5{
+    
+        
+        font-family: 'Montserrat Subrayada', sans-serif;
+        font-size: bold;
+        font-size: 7vh;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    }
