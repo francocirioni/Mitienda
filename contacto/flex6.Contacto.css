@@ -1,3 +1,37 @@
+@media screen and (max-width: 1023px){
+    h1{
+        margin: 0;
+    }
+    .flex-conteiner6 {
+        margin-top: 7%;
+        display: flex;
+        flex-direction: column ;
+    }
+    .best1,.best2, .best3, .best4 {
+        background-color: #F1F1F1;
+    }
+    .flex-item61, .flex-item62, .flex-item63, .flex-item64 {
+        text-align: center;
+        margin-top: 4%;
+    }
+    .flex-item64{
+        margin-bottom: 8%;
+    }
+    .textbest {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Bebas Neue', cursive;   
+        font-size: 20px;
+    }
+
+    .titulosrelojes{
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 1%;
+        font-size: 20px;    
+
+    }
+}
 @media screen and (min-width: 1367px) {
 
     .flex-conteiner6 {
