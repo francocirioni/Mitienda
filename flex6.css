@@ -1,4 +1,14 @@
 @media screen and (max-width: 1023px) {
+    .flex-conteiner6{
+        display: flex;
+    }
+    .tituloprincipal6{
+        text-align: center;
+    }
+    .flex-item61, .flex-item62, .flex-item63, .flex-item64 {
+        width: 25%;
+    }
+
 }
 @media screen and (min-width: 1367px) { 
 .tituloprincipal6 {
@@ -109,19 +119,6 @@
 }
 
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
  @media screen and (min-width: 1024px) and (max-width: 1366px) {
 
 
