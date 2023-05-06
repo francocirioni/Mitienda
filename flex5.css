@@ -2,10 +2,8 @@
     .flex-conteiner5{
         display: flex;
         flex-direction: column;
-    }
-    .flex-item5 {   
-
-
+        margin-bottom: 100px;
+        margin-top: 50px;
     }
     .subtitulo5{
         color: black;
@@ -19,7 +17,12 @@
         background-image: url(images/mujer2.png);
         background-repeat: no-repeat;
         background-size: cover; 
-    }   
+    }
+    .textbest{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1366px){
