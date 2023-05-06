@@ -1,4 +1,86 @@
-
+@media screen and (max-width: 1023px)  { 
+    .iconocarrito {
+        position: absolute;
+        top: 7%;
+        right: 2%;
+    }
+    .letracarro {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        margin-right: 0;
+    }
+    .itemsdelcarro{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 23px;
+    }
+    .itemsdelcarro{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 23px;
+    }
+    .contenedorcarro {background-image: url(../images/fondo8.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 400px;
+        text-align: left;
+        border-radius: 10px;
+        border: 0px solid black;
+    }
+    #checkout{
+        margin-top: 2px;
+        padding: 4px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+    }
+    #empty-cart{
+        margin-top: 2px;
+        padding: 4px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+    }
+    .total{
+        padding-top: 2px;
+        padding-bottom: px;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25px;
+    }
+    .lateral {
+        writing-mode: vertical-rl;
+        text-orientation: upright;    
+        background-color: transparent;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 25px;
+        min-height: 40px;
+        max-height: 40px;
+        margin-right: 10px;  
+    }
+    .miDiv{
+        display: flex;
+    }
+    .textbest{
+        display: flex;
+        justify-content: center;
+    }
+    .add-to-cart{
+        width: 40% ;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+    }
+}
 @media screen and (min-width: 1367px) {
 
 .iconocarrito {
