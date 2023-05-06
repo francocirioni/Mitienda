@@ -1,3 +1,32 @@
+@media screen and (max-width: 1023px){
+    .footer{
+        background-color: #f1f1f1;
+    }
+    .flex-conteiner8{
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-item81,.flex-item82,.flex-item83,.flex-item84{
+        width: 25%;
+    }
+    .item81{
+        width: 50%;
+        padding: 0;
+    }
+    .titulo81{
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+    }
+    .subitulo8{
+        font-family: 'Bebas Neue', cursive;
+        color:#606060;
+    }
+    .consultas2{
+        color: red;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+    }
+}
 .footer{
     MAX-height: 400px;  
     background-color: #F1F1F1;  
