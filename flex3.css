@@ -12,6 +12,13 @@
         display: flex;        
         flex-direction: column;
     }
+    
+    .flex-item3 {   
+    
+    text-align: center;   
+    height:auto;    
+   
+}
 
 }
 

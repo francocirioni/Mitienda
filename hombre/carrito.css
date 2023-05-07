@@ -1,77 +1,89 @@
-@media screen and (max-width: 1024px)  { 
+@media screen and (max-width: 1024px) {
     .iconocarrito {
+        display: flex;
         position: absolute;
-        top: 7%;
-        right: 2%;
+        text-align: center;
+        flex-direction: column;
+        justify-content: right;
+        top: 100px;
+        width: 40%;
+        margin-left: 50vw;
+       
+
     }
+
     .letracarro {
         font-family: 'Bebas Neue', cursive;
         font-size: 20px;
         margin-right: 0;
     }
-    .itemsdelcarro{
+
+
+    .itemsdelcarro {
         display: flex;
         justify-content: space-between;
         padding: 10px;
         align-items: center;
         font-family: 'Bebas Neue', cursive;
         font-size: 23px;
+       
     }
-    .itemsdelcarro{
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-        align-items: center;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 23px;
-    }
-    .contenedorcarro {background-image: url(../images/fondo8.png);
+
+    .contenedorcarro {
+        background-image: url(../images/fondo8.png);
         background-repeat: no-repeat;
         background-size: cover;
-        min-width: 400px;
-        text-align: left;
+        max-width: 100%;
+        text-align: center;
         border-radius: 10px;
-        border: 0px solid black;
+     
     }
-    #checkout{
+
+    #checkout {
         margin-top: 2px;
         padding: 4px;
         font-family: 'Bebas Neue', cursive;
         font-size: 18px;
     }
-    #empty-cart{
+
+    #empty-cart {
         margin-top: 2px;
         padding: 4px;
         font-family: 'Bebas Neue', cursive;
         font-size: 18px;
     }
-    .total{
+
+    .total {
         padding-top: 2px;
         padding-bottom: px;
         text-align: center;
         font-family: 'Bebas Neue', cursive;
         font-size: 25px;
     }
+
     .lateral {
         writing-mode: vertical-rl;
-        text-orientation: upright;    
+        text-orientation: upright;
         background-color: transparent;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-right: 25px;
         min-height: 40px;
         max-height: 40px;
-        margin-right: 10px;  
+        margin-right: 10px;
     }
-    .miDiv{
+
+    .miDiv {
         display: flex;
     }
-    .textbest{
+
+    .textbest {
         display: flex;
         justify-content: center;
     }
-    .add-to-cart{
-        width: 40% ;
+
+    .add-to-cart {
+        width: 40%;
         margin-left: 5px;
         margin-right: 5px;
         display: flex;
@@ -81,130 +93,132 @@
         font-size: 20px;
     }
 }
+
 @media screen and (min-width: 1367px) {
 
-.iconocarrito {
-    display: flex;
-    position: fixed;
-    text-align: left;
-    flex-direction: row;
-    justify-content: right;
-    top: -3px;
-    width: 60px;
-    margin-left: 96vw;
+    .iconocarrito {
+        display: flex;
+        position: fixed;
+        text-align: left;
+        flex-direction: row;
+        justify-content: right;
+        top: -3px;
+        width: 60px;
+        margin-left: 96vw;
 
-}
+    }
 
-.letracarro {
+    .letracarro {
 
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
-    margin-right: 0;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        margin-right: 0;
 
-}
-
-
-.imgcarro {
-    width: 100px;
-    height: 100px;
-}
+    }
 
 
-.itemsdelcarro{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    align-items: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 23px;
-}
+    .imgcarro {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .itemsdelcarro {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 23px;
+    }
 
 
 
 
-.contenedorcarro {
+    .contenedorcarro {
 
-    /*
+        /*
     background-color: #F9D1C5;
 
     */
 
-    background-image: url(../images/fondo8.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-width: 400px;
-    text-align: left;
-    border-radius: 10px;
-    border: 0px solid black;
+        background-image: url(../images/fondo8.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 400px;
+        text-align: left;
+        border-radius: 10px;
+        border: 0px solid black;
 
 
 
+    }
+
+
+
+    #checkout {
+        margin-top: 2px;
+        padding: 4px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+    }
+
+    #empty-cart {
+        margin-top: 2px;
+        padding: 4px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+    }
+
+    .total {
+        padding-top: 2px;
+        padding-bottom: px;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25px;
+
+    }
+
+
+
+
+    .lateral {
+
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        background-color: transparent;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 25px;
+        min-height: 40px;
+        max-height: 40px;
+        margin-right: 10px;
+
+    }
+
+    .miDiv {
+        display: flex;
+    }
+
+
+    .add-to-cart {
+
+        width: 95%;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+
+
+    }
 }
 
 
-
-#checkout{
-     margin-top: 2px;
-     padding: 4px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 18px;
-}
-
-#empty-cart{
-    margin-top: 2px;
-     padding: 4px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 18px;
-}
-
-.total{
-    padding-top: 2px;
-    padding-bottom: px;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-
-}
-
-
-
-
-.lateral {
-
-    writing-mode: vertical-rl;
-    text-orientation: upright;    
-    background-color: transparent;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 25px;
-    min-height: 40px;
-    max-height: 40px;
-    margin-right: 10px;
-   
-}
-
-.miDiv{
-    display: flex;
-}
-
-
-.add-to-cart{
-
-    width: 95%  ;
-    margin-left: 5px;
-    margin-right: 5px;
-    display: flex;    
-    justify-content: center;
-    text-align: center;
-    align-items: center;  
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
-
-   
-}}
-
-
-@media screen and (min-width: 1024px) and (max-width: 1366px)   {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
 
     .iconocarrito {
         display: flex;
@@ -215,25 +229,25 @@
         top: -3px;
         width: 60px;
         margin-left: 93vw;
-    
+
     }
-    
+
     .letracarro {
-    
+
         font-family: 'Bebas Neue', cursive;
         font-size: 20px;
         margin-right: 0;
-    
+
     }
-    
-    
+
+
     .imgcarro {
         width: 100px;
         height: 100px;
     }
-    
-    
-    .itemsdelcarro{
+
+
+    .itemsdelcarro {
         display: flex;
         justify-content: space-between;
         padding: 10px;
@@ -241,17 +255,17 @@
         font-family: 'Bebas Neue', cursive;
         font-size: 23px;
     }
-    
-    
-    
-    
+
+
+
+
     .contenedorcarro {
-    
+
         /*
         background-color: #F9D1C5;
     
         */
-    
+
         background-image: url(../images/fondo8.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -259,43 +273,43 @@
         text-align: left;
         border-radius: 10px;
         border: 0px solid black;
-    
-    
-    
+
+
+
     }
-    
-    
-    
-    #checkout{
-         margin-top: 2px;
-         padding: 4px;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 18px;
-    }
-    
-    #empty-cart{
+
+
+
+    #checkout {
         margin-top: 2px;
-         padding: 4px;
+        padding: 4px;
         font-family: 'Bebas Neue', cursive;
         font-size: 18px;
     }
-    
-    .total{
+
+    #empty-cart {
+        margin-top: 2px;
+        padding: 4px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+    }
+
+    .total {
         padding-top: 2px;
         padding-bottom: px;
         text-align: center;
         font-family: 'Bebas Neue', cursive;
         font-size: 25px;
-    
+
     }
-    
-    
-    
-    
+
+
+
+
     .lateral {
-    
+
         writing-mode: vertical-rl;
-        text-orientation: upright;    
+        text-orientation: upright;
         background-color: transparent;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -303,35 +317,26 @@
         min-height: 40px;
         max-height: 40px;
         margin-right: 10px;
-       
+
     }
-    
-    .miDiv{
+
+    .miDiv {
         display: flex;
     }
-    
-    
-    .add-to-cart{
-    
-        width: 95%  ;
+
+
+    .add-to-cart {
+
+        width: 95%;
         margin-left: 5px;
         margin-right: 5px;
-        display: flex;    
+        display: flex;
         justify-content: center;
         text-align: center;
-        align-items: center;  
+        align-items: center;
         font-family: 'Bebas Neue', cursive;
         font-size: 20px;
-    
-       
-    }}
-    
-    
-    
-    
-    
-    
 
 
-
-
+    }
+}

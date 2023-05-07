@@ -159,12 +159,11 @@
         width: 100%;
         display: flex;      
         justify-content: center;
+        text-align: center;
         max-height: auto;
         padding-top: 20px;
-       
-    }
-    
-    
+           }
+        
     .flex-item52 {
         
       
@@ -177,16 +176,11 @@
       
         max-height: 600px;;
         max-width: 600px;
-        
-            
+                   
      }
     
   
     
-      
-       
-      
-       
     
 }
 

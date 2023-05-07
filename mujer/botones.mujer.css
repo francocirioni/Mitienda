@@ -1,4 +1,4 @@
-@media screen and (max-width: 1023px)  {
+@media screen and (max-width: 1024px)  {
   ul {
     list-style: none;
   }
@@ -7,14 +7,18 @@
     text-decoration: none;
     font-family: 'Merriweather', serif;
     font-weight: bold;
+
   }
   .menu{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0;
+   
   }
   .menu li{
     padding-left: 10px;
+    padding-right: 10px;
   }
   .menu a::before {
     content: '';
@@ -32,7 +36,11 @@
     transform: scaleX(1);
   }
  
+  .sobre{display: hide;}
+  .logo{display: hide;}
+ 
 }
+
 @media screen and (min-width: 1367px)  { 
 ul {
     list-style: none;
