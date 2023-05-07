@@ -1,29 +1,4 @@
-/*@media screen and (max-width: 1024px)  { 
-    .container{
-        background-image: url(../images/fondo3.png);
-        background-origin: border-box;     
-        background-size: cover;
-        width: 100%;
-    }
-    .flex-conteiner{
-        padding: 0;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .flex-item2 .titulo{
-        font-size:20vh; 
-        font-family: 'Bebas Neue', cursive;
-        font-weight: bold;
-    }
-    .flex-item2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        }
-        .best1,.best2,.best3,.best4{
-            width: 40%;
-        }
-}*/
+
 
 @media screen and (max-width: 1024px) {
     .container {

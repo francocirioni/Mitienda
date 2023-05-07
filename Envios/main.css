@@ -1,8 +1,98 @@
-.main{
+@media screen and (max-width: 1024px) {
+
+  .contenedor-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .contenedor-formulario {
+ 
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #7C87A1;
+  
+  }
+  
+  .formulario {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
     
+  }
+  
+  .resultado {
+    margin-top: 10px;
+  }
+  
+  .resultado p {
+    margin-left: 10px;
+  }
+  
+.boton{
+
+    width: 50%  ;
+ 
+  display: flex;    
+  justify-content: center;
+  text-align: center;
+  align-items: center;  
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.input{
+
+  width: 78%  ; 
+  text-align: center;
+  align-items: center;  
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  margin-top: 20px;
+
+
+
+
+}
+
+.titulo2{
+
+  padding-top: 20px;
+    font-size:4vh; 
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: center;
+    
+
+
+
 }
 
 
+.tituloid{
+  font-size:6vh; 
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  text-align: center;
+ 
+}
+
+
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
 .contenedor-principal {
     display: flex;
     justify-content: center;
@@ -87,4 +177,4 @@
   font-weight: bold;
   text-align: center;
  
-}
+}}

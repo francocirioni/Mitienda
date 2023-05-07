@@ -1,3 +1,205 @@
+
+@media screen and (max-width: 1024px) {
+    .container-top {
+        display: block;
+        background-image: url(../images/fondo3.png);
+        background-origin: border-box;
+        background-size: cover;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+
+
+    .titulo {
+        justify-content: center;
+     
+    }
+
+    .flex-conteiner2 {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+    }
+
+    .flex-conteiner {
+        display: flex;
+        
+        width: 100%;
+        align-items: center;
+        text-align: center;
+       
+
+
+    }
+
+    .flex-item {
+      
+        display: flex;
+        width: 33%;
+       
+        justify-content: center;
+
+    }
+
+    img {
+        width: 40%;
+
+
+    }
+
+    .titulo,
+    .subtitulo {
+        font-size: 14vw;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+    }
+
+
+
+
+
+/***********************************************************************************************/
+
+
+
+.container-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+
+
+
+.icono-pregfreq {
+    height:50px;
+    width: auto;
+}
+
+
+.titulo1{
+    font-size:2vh; 
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: center;
+    width: 15vw;
+    
+}
+
+
+.detalle{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+    width: 50vw;
+    
+}
+
+
+
+.menudesp input {
+    display: none;
+}
+
+.menudesp label {
+    position: relative;
+	font-weight: 600;
+	box-shadow: 0px 1px 0px 0 gray;
+	display: block;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border-radius: 4px;
+    padding: 15px 10px 15px 40px;
+    background-color: rgba(109, 109, 109, 0);
+    box-shadow: rgb(38, 57, 77) 0px 10px 10px -10px;
+
+}
+
+.menudesp label::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    height:0;
+    font-size: 0;
+    position: absolute; 
+    top: 15px;
+    left: 10px;
+    transition: transform 0.5s;
+    transform-origin: 3px center;
+    
+}
+
+.menudesp input:checked + label::before {
+	transform: rotate(90deg);
+}
+
+.menudesp-text {
+    max-height: 1px;
+	overflow: hidden;
+	position: relative;
+	opacity: 0.5;
+	transition: all 0.3s ease;
+    font-weight: 200;
+}
+
+
+
+.menudesp input:checked ~ .menudesp-text {
+	max-height: 300px;
+	padding-bottom: 25px;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px)  {
 *{
 margin: 0;
 width: 100%;
@@ -166,6 +368,6 @@ width: 100%;
 }
 
 /**************************************************/
-
+}
 
 
