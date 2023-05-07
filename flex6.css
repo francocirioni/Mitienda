@@ -1,15 +1,50 @@
 @media screen and (max-width: 1023px) {
-    .flex-conteiner6{
-        display: flex;
-    }
+    
     .tituloprincipal6{
         text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        font-size: 3vh;
+    }
+    .flex-conteiner6{
+        display: flex;
+        flex-wrap: wrap;
+        
     }
     .flex-item61, .flex-item62, .flex-item63, .flex-item64 {
-        width: 25%;
+        width: 50%;
+    }
+
+    .textbest{
+        text-align: left;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+    }
+    .best{
+    
+     
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: auto;
+        width: auto;
+        margin: 5px;
+        background-color: #F1F1F1;      
+    }
+    
+    .best1, .best2, .best3, .best4{
+
+        max-height: 400px;;
+        max-width: 400px;
+        padding: 25px;
     }
 
 }
+
+
+
+
+
 @media screen and (min-width: 1367px) { 
 .tituloprincipal6 {
     height: 150px;
