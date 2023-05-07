@@ -1,12 +1,20 @@
 @media screen and (max-width: 1023px) {
     .flex-conteiner7{
         display: flex;
-        flex-direction: column;
+        flex-direction: column;        
+        justify-content: space-between;
+        width: 100%;      
+        margin-top: 10px;
+        
     }
     .flex-item7{
-        margin-left: 10%;
-        margin-bottom: 20px;
-        border: 3px solid #F1F1F1;
+       
+        margin-bottom: 20px;       
+        flex:1;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 5px solid #F1F1F1;
     }
     .icono7{
         width: 50px;
@@ -16,20 +24,31 @@
         font-family: 'Bebas Neue', cursive;
         font-size: 3vh;
         font-weight: bold;
+        
     }
     .subtitulo7{
         font-family: 'Bebas Neue', cursive;
-        font-size: 3vh;
+        font-size: 2vh;
+        display: hide;
     }
     .consultas{
-        margin-top: 8px;
+        
         color: red;      
         font-family: 'Bebas Neue', cursive;
-        font-size: 3vh;
+        font-size: 2.5vh;
         font-weight: bold;
         text-decoration: underline red;
     }
     }
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1367px)  { 
 .flex-conteiner7{
     margin: 0px;
