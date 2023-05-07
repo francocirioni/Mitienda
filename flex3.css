@@ -2,11 +2,22 @@
     .titulo3{
     color: black;
     text-align: center;
-    font-size: 4vw;
-    padding-top: 4vw;
+    font-size: 5vh;
+ 
     font-family: 'Bebas Neue', cursive;
     }
+
+    .flex-conteiner3{
+
+        display: flex;        
+        flex-direction: column;
+    }
+
 }
+
+
+
+
 
 @media screen and (min-width: 1367px)  { 
 
