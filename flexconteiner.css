@@ -257,17 +257,18 @@
     .titulo {
         font-size: 15vw;
         margin-top: 7vh;
-        padding-left: 60px;
+        padding-left: 50px;
         font-family: 'Bebas Neue', cursive;
         font-weight: bold;
-        margin-left: 2vh;
+      
+       
     }
 
     .subtitulo {
         font-size: 7vw;
-        padding-left: 60px;
+        padding-left: 50px;
         margin-top: 3vh;
-        margin-left: 2vh;
+      
         font-family: 'Bebas Neue', cursive;
         font-weight: bold;
     }
