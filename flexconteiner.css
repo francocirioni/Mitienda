@@ -135,7 +135,7 @@
 
     .titulo {
         font-size: 15vw;
-        margin-top: 10vh;
+        margin-top: 7vh;
         padding-left: 60px;
         font-family: 'Bebas Neue', cursive;
         font-weight: bold;
@@ -143,9 +143,9 @@
     }
 
     .subtitulo {
-        font-size: 7vw;
+        font-size: 6vw;
         padding-left: 60px;
-        margin-top: 7vh;
+        margin-top: 3vh;
         margin-left: 2vh;
         font-family: 'Bebas Neue', cursive;
         font-weight: bold;
@@ -174,7 +174,7 @@
 
 
 
-@media screen and (min-width: 1000px) and (max-width: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
 
 
     * {
@@ -256,7 +256,7 @@
 
     .titulo {
         font-size: 15vw;
-        margin-top: 10vh;
+        margin-top: 7vh;
         padding-left: 60px;
         font-family: 'Bebas Neue', cursive;
         font-weight: bold;
@@ -266,7 +266,7 @@
     .subtitulo {
         font-size: 7vw;
         padding-left: 60px;
-        margin-top: 7vh;
+        margin-top: 3vh;
         margin-left: 2vh;
         font-family: 'Bebas Neue', cursive;
         font-weight: bold;
