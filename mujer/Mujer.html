@@ -21,9 +21,9 @@
     <!-- KIT DE ICONOS FONTAWESOME-->
     <script src="https://kit.fontawesome.com/fdd02fe565.js" crossorigin="anonymous"></script>
 
-     <!-- KIT EFECTOS DE TRANSICION -->
+    <!-- KIT EFECTOS DE TRANSICION -->
 
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- TIPO DE LETRAS GOOGLE FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -108,13 +108,21 @@
             </div>
 
 
-            <div id="titulo " class="flex-conteiner2">
+
+
+
+            <!--HEADER-->
+
+
+
+
+            <header id="titulo " class="flex-conteiner2">
 
                 <span class="flex-item2">
 
 
                     <div class="titulo" data-aos="fade-right">
-                        
+
                         Mujer
 
                     </div>
@@ -122,15 +130,7 @@
 
                 </span>
 
-
-
-
-
-
-
-
-
-            </div>
+            </header>
 
 
 
@@ -138,284 +138,260 @@
     </nav>
 
 
-    
-
-    <div class="iconocarrito">
-
-
-        <div id="miDiv" style="display: none; " class="contenedorcarro">
 
 
 
-            <div id="cart">
-                
-                
-                <div>
 
+    <main>
+
+        <!-- CARRO -->
+
+        <div class="iconocarrito">
+
+
+            <div id="miDiv" style="display: none; " class="contenedorcarro">
+
+
+
+                <div id="cart">
+
+
+                    <div>
+
+
+
+                    </div>
+                    <button id="checkout">Comprar</button>
+                    <button id="empty-cart">Vaciar carrito</button>
+                    <div class="total"></div>
 
 
                 </div>
-                <button id="checkout">Comprar</button>
-                <button id="empty-cart">Vaciar carrito</button>
+
+
                 <div class="total"></div>
 
-
             </div>
 
+            <div class="lateral">
+                <i onclick="mostrarocultar()" class="fa-solid fa-cart-shopping fa-2xl ">
 
-            <div class="total"></div>
 
-        </div>
 
-        <div class="lateral">
-            <i onclick="mostrarocultar()" class="fa-solid fa-cart-shopping fa-2xl ">
-
-           
-
-            </i>
+                </i>
             </div>
 
 
 
-    </div>
+        </div>
 
 
-    <!-- CARRITO-->
 
 
-    <!-- 
-    <div id="miDiv" style="display: none;"  >
+        <!--CSS FLEX6-->
+        <div class="parteitems">
+            <div class="flex-conteiner6">
 
-        <div id="cart">
+                <span class="flex-item61">
 
-            <div>
+                    <div class="best" href="">
+
+                        <img class="best1" src="../images/stock/mujer/GtMasterWhite.png" alt="">
+                    </div>
+
+                    <div class="titulosrelojes">
+                        <h1 class="titulorelojes">Gt Master White</h1> $ 10796
+                    </div>
+
+                    <div class="textbest">
+
+                        <button class="add-to-cart" data-name="Gt Master White" data-price="10796"
+                            data-img="../images/stock/mujer/GtMasterWhite.png">Agregar al carrito</button>
+
+                    </div>
+
+                </span>
+
+
+                <span class="flex-item64">
+
+                    <div class="best" href="">
+
+                        <img class="best4" src="../images/stock/mujer/RM07.png" alt="">
+                    </div>
+
+                    <div class="titulosrelojes">
+                        <h1 class="titulorelojes">RM07 </h1> $ 20580
+                    </div>
+
+                    <div class="textbest">
+
+                        <button class="add-to-cart" data-name="RM07 " data-price="20580"
+                            data-img="../images/stock/mujer/RM07.png">Agregar al carrito</button>
+
+                    </div>
+
+                </span>
+
+
+
+
+                <span class="flex-item63">
+
+                    <div class="best" href="">
+
+                        <img class="best3" src="../images/stock/mujer/OysterPink.png" alt="">
+
+                    </div>
+
+                    <div class="titulosrelojes">
+                        <h1 class="titulorelojes">Oyster Pink</h1> $ 14250
+                    </div>
+
+
+                    <div class="textbest">
+
+                        <button class="add-to-cart" data-name="Oyster Pink" data-price="14250"
+                            data-img="../images/stock/mujer/OysterPink.png">Agregar al carrito</button>
+
+                    </div>
+
+                </span>
+
+                <span class="flex-item62">
+
+                    <div class="best" href="">
+
+                        <img class="best2" src="../images/stock/mujer/SeaBlack.png" alt="">
+
+                    </div>
+
+                    <div class="titulosrelojes">
+                        <h1 class="titulorelojes"> Sea Black</h1> $ 16399
+                    </div>
+
+
+                    <div class="textbest">
+
+                        <button class="add-to-cart" data-name="Sea Black" data-price="16399"
+                            data-img="../images/stock/mujer/SeaBlack.png">Agregar al carrito</button>
+
+                    </div>
+
+                </span>
+
+
+
+
+                </span>
 
 
 
             </div>
-            <button id="checkout">Comprar</button>
-            <button id="empty-cart">Vaciar carrito</button>
-            <div class="total"></div>
-        </div>
 
 
-        <div class="total"></div>
-    </div>
+            <div class="flex-conteiner6">
 
+                <span class="flex-item61">
 
-    -->
+                    <div class="best" href="">
 
+                        <img class="best1" src="../images/stock/mujer/SeaBlack.png" alt="">
 
-
-
-
-    <!--Primera Fila-->
-    <div class="parteitems" >
-        <div class="flex-conteiner6"  >
-
-            <span class="flex-item61">
-
-                <div class="best" href="">
-
-                    <img class="best1" src="../images/stock/mujer/GtMasterWhite.png" alt="">
-                </div>
-
-                <div class="titulosrelojes">
-                <h1 class="titulorelojes">Gt Master White</h1>  $ 10796
-                </div>
-
-                <div class="textbest"> 
-
-                    <button class="add-to-cart" data-name="Gt Master White" data-price="10796"
-                        data-img="../images/stock/mujer/GtMasterWhite.png">Agregar al carrito</button>
-
-                </div>
-
-            </span>
-
-
-            <span class="flex-item64">
-
-                <div class="best" href="">
-
-                    <img class="best4" src="../images/stock/mujer/RM07.png" alt="">
-                </div>
-
-                <div class="titulosrelojes">
-                    <h1 class="titulorelojes">RM07 </h1>  $ 20580
                     </div>
 
-                <div class="textbest"> 
-
-                    <button class="add-to-cart" data-name="RM07 " data-price="20580"
-                        data-img="../images/stock/mujer/RM07.png">Agregar al carrito</button>
-
-                </div>
-
-            </span>
-
-           
-
-
-            <span class="flex-item63">
-
-                <div class="best" href="">
-
-                    <img class="best3" src="../images/stock/mujer/OysterPink.png" alt="">
-
-                </div>
-
-                <div class="titulosrelojes">
-                   <h1 class="titulorelojes">Oyster Pink</h1>  $ 14250
+                    <div class="titulosrelojes">
+                        <h1 class="titulorelojes">Sea Black</h1> $ 14850
                     </div>
 
 
-                <div class="textbest">
+                    <div class="textbest">
 
-                    <button class="add-to-cart" data-name="Oyster Pink" data-price="14250"
-                        data-img="../images/stock/mujer/OysterPink.png">Agregar al carrito</button>
+                        <button class="add-to-cart" data-name="Sea Black" data-price="14850"
+                            data-img="../images/stock/mujer/SeaBlack.png">Agregar al carrito</button>
 
-                </div>
+                    </div>
 
-            </span>
+                </span>
 
-            <span class="flex-item62">
 
-                <div class="best" href="">
+                <span class="flex-item62">
 
-                    <img class="best2" src="../images/stock/mujer/SeaBlack.png" alt="">
+                    <div class="best" href="">
 
-                </div>
+                        <img class="best2" src="../images/stock/mujer/YachtMaster.png" alt="">
 
-                <div class="titulosrelojes">
-                   <h1 class="titulorelojes"> Sea Black</h1>  $ 16399
+                    </div>
+
+                    <div class="titulosrelojes">
+                        <h1 class="titulorelojes">Yacht Master</h1> $ 22800
                     </div>
 
 
-                <div class="textbest"> 
+                    <div class="textbest">
 
-                    <button class="add-to-cart" data-name="Sea Black" data-price="16399"
-                        data-img="../images/stock/mujer/SeaBlack.png">Agregar al carrito</button>
+                        <button class="add-to-cart" data-name="Yacht Master" data-price="22800"
+                            data-img="../images/stock/mujer/YachtMaster.png">Agregar al carrito</button>
 
-                </div>
+                    </div>
 
-            </span>
-
-
-         
-
-            </span>
+                </span>
 
 
+                <span class="flex-item63">
+
+                    <div class="best" href="">
+
+                        <img class="best3" src="../images/stock/mujer/SpeedMaster.png" alt="">
+
+                    </div>
+
+                    <div class="titulosrelojes">
+                        <h1 class="titulorelojes">Speed Master</h1> $ 13597
+                    </div>
+
+
+                    <div class="textbest">
+
+                        <button class="add-to-cart" data-name="Speed master" data-price="13597"
+                            data-img="../images/stock/mujer/SpeedMaster.png">Agregar al carrito</button>
+
+                    </div>
+
+                </span>
+
+
+                <span class="flex-item64">
+
+                    <div class="best" href="">
+
+                        <img class="best4" src="../images/stock/mujer/Oyster Mars.png" alt="">
+                    </div>
+
+                    <div class="titulosrelojes">
+                        <h1 class="titulorelojes">oyster mars</h1> $ 13780
+                    </div>
+
+
+                    <div class="textbest">
+                        <button class="add-to-cart" data-name="Oyster Mars" data-price="13780"
+                            data-img="../images/stock/mujer/Oyster Mars.png">Agregar al carrito</button>
+
+                    </div>
+
+                </span>
+
+                </span>
+            </div>
 
         </div>
 
-
-        <!--Segunda Fila-->
-
-
-        <div class="flex-conteiner6"  >
-
-            <span class="flex-item61">
-
-                <div class="best" href="">
-
-                    <img class="best1" src="../images/stock/mujer/SeaBlack.png" alt="">
-
-                </div>
-
-                <div class="titulosrelojes">
-                  <h1 class="titulorelojes">Sea Black</h1>  $ 14850
-                 </div>
-
-
-                <div class="textbest">
-
-                    <button class="add-to-cart" data-name="Sea Black" data-price="14850"
-                        data-img="../images/stock/mujer/SeaBlack.png">Agregar al carrito</button>
-
-                </div>
-
-            </span>
-
-
-            <span class="flex-item62">
-
-                <div class="best" href="">
-
-                    <img class="best2" src="../images/stock/mujer/YachtMaster.png" alt="">
-
-                </div>
-
-                <div class="titulosrelojes">
-                 <h1 class="titulorelojes">Yacht Master</h1>  $ 22800
-                    </div>
-
-
-                <div class="textbest"> 
-
-                    <button class="add-to-cart" data-name="Yacht Master" data-price="22800"
-                        data-img="../images/stock/mujer/YachtMaster.png">Agregar al carrito</button>
-
-                </div>
-
-            </span>
-
-
-            <span class="flex-item63">
-
-                <div class="best" href="">
-
-                    <img class="best3" src="../images/stock/mujer/SpeedMaster.png" alt="">
-
-                </div>
-
-                <div class="titulosrelojes">
-             <h1 class="titulorelojes">Speed Master</h1>  $ 13597
-                    </div>
-
-
-                <div class="textbest">
-
-                    <button class="add-to-cart" data-name="Speed master" data-price="13597"
-                        data-img="../images/stock/mujer/SpeedMaster.png">Agregar al carrito</button>
-
-                </div>
-
-            </span>
-
-
-            <span class="flex-item64">
-
-                <div class="best" href="">
-
-                    <img class="best4" src="../images/stock/mujer/Oyster Mars.png" alt="">
-                </div>
-
-                <div class="titulosrelojes">
-                    <h1 class="titulorelojes">oyster mars</h1>  $ 13780
-                    </div>
-
-
-                <div class="textbest"> 
-                    <button class="add-to-cart" data-name="Oyster Mars" data-price="13780"
-                        data-img="../images/stock/mujer/Oyster Mars.png">Agregar al carrito</button>
-
-                </div>
-
-            </span>
-
-            </span>
-        </div>
-
-    </div>
-
-
+    </main>
 
 
 
     <!--FOOTER-->
-    <footer class="footer"  data-aos="fade-up">
+    <footer class="footer" data-aos="fade-up">
 
 
 
@@ -443,7 +419,8 @@
             </span>
 
             <span class="flex-item83">
-                <div class="titulo8"> <a class="titulo81" href="../preguntas-frecuentes/preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a></div>
+                <div class="titulo8"> <a class="titulo81"
+                        href="../preguntas-frecuentes/preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a></div>
 
                 <div class="subitulo8">Garantia</div>
                 <div class="subitulo8">Envios</div>
@@ -461,7 +438,7 @@
                 <div class="subitulo8">Av.Gral.Paz 1278 , Buenos Aires, Argentína</div>
                 <div class="subitulo8">Contacto@Mitienda.com</div>
                 <div class="subitulo8">+54-3568-359875</div>
-                <div > <a href="../Envios/Envios.html" class="consultas2">Consultar mi pedido</a></div>
+                <div> <a href="../Envios/Envios.html" class="consultas2">Consultar mi pedido</a></div>
 
 
 
@@ -487,26 +464,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- SCRIPT CARRO -->
 
 
 
@@ -559,7 +517,7 @@
         for (var i = 0; i < cart.length; i++) {    //esto es para que vaya uno a uno de los elementos de la lista y realice los div
             var item = cart[i];
             var listItem = document.createElement('div');
-            listItem.innerHTML =  '<div class="itemsdelcarro">'      + item.name +  ' - $' + item.price + '<img class="imgcarro" src="' + item.img + '"> ' +      '</div>'         ;
+            listItem.innerHTML = '<div class="itemsdelcarro">' + item.name + ' - $' + item.price + '<img class="imgcarro" src="' + item.img + '"> ' + '</div>';
 
             cartList.appendChild(listItem);          //sirve para actualizar la lista
             total += parseFloat(item.price);         //suma los precios de los items
@@ -581,15 +539,17 @@
 
 
 
-        if (cart.length >= 1){  alert("Compra exitosa, muchas gracias");
-        cart = [];
-        showCart();}
+        if (cart.length >= 1) {
+            alert("Compra exitosa, muchas gracias");
+            cart = [];
+            showCart();
+        }
 
 
-        else {alert("Coloque items en el carrito");}
+        else { alert("Coloque items en el carrito"); }
 
-      
-        
+
+
     });
 
 
@@ -618,6 +578,8 @@
 
 
 
+
+<!-- EFECTO TRANSCION DE PAGINA-->
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>

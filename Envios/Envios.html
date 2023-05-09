@@ -39,10 +39,8 @@
 </head>
 
 <body>
+    <!-- NAV Y HEADER-->
 
-
-
-    <!-- NAV Y TITULO-->
     <nav data-aos="fade-right">
         <div class="container-top">
 
@@ -105,7 +103,7 @@
 
             </div>
 
-            <div id="titulo " class="flex-conteiner2">
+            <header id="titulo " class="flex-conteiner2">
 
                 <span class="flex-item2">
 
@@ -116,7 +114,7 @@
 
                 </span>
 
-            </div>
+            </header>
 
         </div>
 
@@ -135,15 +133,15 @@
             <div class="contenedor-formulario">
                 <div class="formulario">
                     <div class="tituloid">Coloque el ID de su compra</div>
-                   <div class="form"> 
+                    <div class="form">
 
 
-                    
-                   <input type="text" id="id-envio" class="input" placeholder="Ejemplo : 123456">
+
+                        <input type="text" id="id-envio" class="input" placeholder="Ejemplo : 123456">
 
 
-                   </div> 
-                   
+                    </div>
+
 
                     <button id="btn-buscar" class="boton">Buscar</button>
                 </div>
@@ -152,42 +150,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-        <script>
-            const btnBuscar = document.getElementById('btn-buscar');
-            const resultado = document.getElementById('resultado');
-
-            btnBuscar.addEventListener('click', () => {
-                const idEnvio = document.getElementById('id-envio').value;
-                const url = 'https://my-json-server.typicode.com/francocirioni/jsonmitienda/db';
-
-                fetch(url)
-                    .then(response => response.json())
-                    .then(data => {
-                        const envios = data.envios;
-                        const envio = envios.find(envio => envio.numero_envio === idEnvio);
-                        if (envio) {
-                            resultado.innerHTML = '<div class="titulo2">'  +`El estado del envío con número ${idEnvio} es: ${envio.estado}` + '</div>';
-                        } else {
-                            resultado.innerHTML = '<div class="titulo2">' + `No se encontró el envío con número ${idEnvio}`  + '</div>';
-                        }
-                    })
-                    .catch(error => {
-                        resultado.innerHTML = `Error: ${error.message}`;
-                    });
-            });
-        </script>
-
-<!--.innerHTML =  '<div class="estadopaquete">'      + ${idEnvio} +  ' - $' + ${envio.estado} + ' ' +      '</div>'  ;
-
-
--->
 
 
 
@@ -223,7 +185,8 @@
 
 
             <span class="flex-item83">
-                <div class="titulo8"> <a class="titulo81" href="../preguntas-frecuentes/preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a>
+                <div class="titulo8"> <a class="titulo81"
+                        href="../preguntas-frecuentes/preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a>
                 </div>
                 <div class="subitulo8">Garantia</div>
                 <div class="subitulo8">Envios</div>
@@ -251,6 +214,36 @@
 
 
 
+    <!-- SCRIPT BUSQUEDA EN JSON DE API-->
+
+
+    <script>
+        const btnBuscar = document.getElementById('btn-buscar');
+        const resultado = document.getElementById('resultado');
+
+        btnBuscar.addEventListener('click', () => {
+            const idEnvio = document.getElementById('id-envio').value;
+            const url = 'https://my-json-server.typicode.com/francocirioni/jsonmitienda/db';
+
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    const envios = data.envios;
+                    const envio = envios.find(envio => envio.numero_envio === idEnvio);
+                    if (envio) {
+                        resultado.innerHTML = '<div class="titulo2">' + `El estado del envío con número ${idEnvio} es: ${envio.estado}` + '</div>';
+                    } else {
+                        resultado.innerHTML = '<div class="titulo2">' + `No se encontró el envío con número ${idEnvio}` + '</div>';
+                    }
+                })
+                .catch(error => {
+                    resultado.innerHTML = `Error: ${error.message}`;
+                });
+        });
+    </script>
+
+
+    <!-- EFECTO TRANSCION DE PAGINA-->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
