@@ -1,109 +1,93 @@
-@media screen and (min-width: 1366px) and (max-width: 1920px) { 
-
-
-.footer{
-
-    MAX-height: 400px;  
-    background-color: #F1F1F1;  
-    max-width: 100%;
-    margin: 0px;
-    padding: -1px;
-   
- 
-
+@media screen and (max-width: 1024px){
+    .footer{
+        background-color: #f1f1f1;
+    }
+    .flex-conteiner8{
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-item81,.flex-item82,.flex-item83,.flex-item84{
+        width: 25%;
+    }
+    .item81{
+        width: 50%;
+        padding: 0;
+    }
+    .titulo81{
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+    }
+    .subitulo8{
+        font-family: 'Bebas Neue', cursive;
+        color:#606060;
+    }
+    .consultas2{
+        color: red;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+    }
 }
 
 
 
 
 
+
+
+.footer{
+    MAX-height: 400px;  
+    background-color: #F1F1F1;  
+    max-width: 100%;
+    margin: 0px;
+    padding: -1px;
+}
+
+
 .flex-conteiner8 {
-    
 
     display: flex;
     max-height: 400px;   
     justify-content: space-around;
     margin: -1px;   
     max-width: 100%;
-
-
-   
-
 }
-
-
-
 
 
 .flex-item81 {
 
     margin-top: 10vh;
-    
     margin-bottom: 10vh;
-
     height: auto;
     width: auto;  
- text-align: left;
-
-
-    
-
-
-
-
+    text-align: left;
 }
 
 .flex-item82 {
 
-    
-    
     margin-bottom: 10vh;
-
     margin-top: 10vh;
     height: auto;
     width: auto;
-  text-align: left;
-
-  
+    text-align: left;
 }
 
 
 .flex-item83 {
 
-    
     margin-bottom: 10vh;
-
-
     margin-top: 10vh;
     height: auto;
     width: auto;
-  
     text-align: left;
-
-    
-
-
-
-
-
 }
 
 .flex-item84 {
 
-
-    
     margin-bottom: 10vh;
     margin-top: 10vh;
     height: auto;
     width: auto;
     text-align: left;
-    
-  
-
-
-
-
-
 }
 
 .titulo8{
@@ -114,17 +98,13 @@
    
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
-  
-    
 }
 
 
 .subitulo8{
     
-
     font-family: 'Bebas Neue', cursive;
     color:#606060;
-
 }
 
 .consultas2{
@@ -133,7 +113,3 @@
     font-weight: bold;
 }
 
-
-
-
-}
