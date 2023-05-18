@@ -51,7 +51,8 @@
 
 
 .image-wrapper1 {
-    width: 30vw;
+    width: 20vw;
+    border-radius: 5%;
     
 }
 
@@ -62,6 +63,7 @@
 
 .image-wrapper1:hover img {
     transform: scale(1.2);
+    border-radius: 5%;
 }
 
 
@@ -76,6 +78,7 @@
     height: auto;
     width: 15vw;
     padding: 15px;
+    border-radius: 5%;
 }
 
 .image-wrapper img {
@@ -86,5 +89,6 @@
 
 .image-wrapper:hover img {
     transform: scale(1.2);
+    border-radius: 5%;
 }
 
