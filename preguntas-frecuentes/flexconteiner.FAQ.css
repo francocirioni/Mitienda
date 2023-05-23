@@ -9,13 +9,9 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-       
     }
-
-
     .titulo {
         justify-content: center;
-     
     }
 
     .flex-conteiner2 {
@@ -56,11 +52,10 @@
 
     .titulo,
     .subtitulo {
-        font-size: 14vw;
+        font-size: 15vw;
         font-family: 'Bebas Neue', cursive;
         font-weight: bold;
     }
-
 
 
 
@@ -193,25 +188,58 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
     *{
         margin: 0;
-        width: 100%;
-        }
+        width: 100%;}
+        
+        
+        
+        
+        
+        
         
         .container-top{
+           
             display: block;
             background-image: url(../images/fondo3.png);
+        
+        
             background-origin: border-box;     
             background-size: cover;   
             height: 40vh;
+            width: 100%;
             margin: 0;
+
+          ;
+           
+            
         }
+        
         
         
         .flex-conteiner{
             display: flex;
             width: 100%;
+         ;
+          
         }
         
         .flex-item {   
@@ -219,12 +247,17 @@
             justify-content:space-around ;   
             text-align: center;
             margin-top: 0;
-            height: 10vh;
-            padding-right: 45px;
+            height: 33%;
+           
+         
+          
+           
+            
         }
         
         .logo{width: 100px;
-            padding-top: 20px;}
+            padding-top: 20px;
+          }
         
         
         .flex-conteiner2{
@@ -232,30 +265,46 @@
             display: flex;
             width: 100%;
             height: auto;
+          
+            
         }
         
         .flex-item2 {   
         
-            padding-top: 30px;
-          width: 100%;
+          
+           
             justify-content:center ;    
             text-align: center;
             padding: auto;
-            justify-content: center
+            justify-content: center;
+    
+        
+        
         }
         
         
-        .titulo{
-            font-size:13vh; 
+        
+        .modulo{
+        
+            width: auto;
+            height: 70vh;
+            margin-top: 10vh;
+            margin-left: 2vh;
+       
+        }
+        
+        
+        .titulo{font-size:20vh; 
             font-family: 'Bebas Neue', cursive;
             font-weight: bold;
-          
-        }
+         
+            }
         
+           
         
-        .menu{padding-top: 20px;}
-        
-        
+
+
+
         
         
         
@@ -374,69 +423,129 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1366px)  {
-*{
-margin: 0;
-width: 100%;
-}
-
-.container-top{
-    display: block;
-    background-image: url(../images/fondo3.png);
-    background-origin: border-box;     
-    background-size: cover;   
-    height: 40vh;
-    margin: 0;
-}
-
-
-.flex-conteiner{
-    display: flex;
-    width: 100%;
-}
-
-.flex-item {   
-    
-    justify-content:space-around ;   
-    text-align: center;
-    margin-top: 0;
-    height: 10vh;
-    padding-right: 45px;
-}
-
-.logo{width: 100px;
-    padding-top: 20px;}
-
-
-.flex-conteiner2{
- 
-    display: flex;
-    width: 100%;
-    height: auto;
-}
-
-.flex-item2 {   
-    padding-top: 30px;
-    height: 90vb;
-    justify-content:center ;    
-    text-align: center;
-    padding: auto;
-    justify-content: center
-}
-
-
-.titulo{
-    font-size:17vh; 
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
-  
-}
-
-
-.menu{padding-top: 20px;}
-
-
-
+    *{
+        margin: 0;
+        width: 100%;}
+        
+        .container-top{
+           
+            display: block;
+            background-image: url(../images/fondo3.png);
+            background-origin: border-box;     
+            background-size: cover;   
+            height: 40vh;
+            width: 100%;
+            margin: 0;
+        
+            
+           
+            
+        }
+        
+        
+        
+        .flex-conteiner{
+        
+            
+            display: flex;
+            width: 100%;
+          
+        
+        }
+        
+        .flex-item {   
+            
+            justify-content:space-around ;   
+            text-align: center;
+            margin-top: 0;
+            height: 10vh;
+        
+            
+          
+           
+            
+        }
+        
+        .logo{width: 100px;
+            padding-top: 20px;}
+        
+        
+        .flex-conteiner2{
+         
+            display: flex;
+            width: 100%;
+            height: auto;
+            
+        }
+        
+        .flex-item2 {   
+        
+            height: 90vb;
+            justify-content:center ;    
+            text-align: center;
+            padding: auto;
+            justify-content: center
+        
+        
+        }
+        
+        
+        
+        .modulo{
+        
+            width: auto;
+            height: 70vh;
+            margin-top: 10vh;
+            margin-left: 2vh;
+        }
+        
+        
+        .titulo{font-size:20vh; 
+            font-family: 'Bebas Neue', cursive;
+            font-weight: bold;
+         
+            }
+        
+           
+        
+        .menu{padding-top: 20px;}
+        
+        
+        
 
 
 
